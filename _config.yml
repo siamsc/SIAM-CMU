@@ -22,11 +22,15 @@ address:  >
   Department of Mathematical Sciences<br>
   Carnegie Mellon University<br>
   Pittsburgh, PA 15213
-baseurl: "/SIAM-CMU" # the subpath of your site, e.g. /blog
+#baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://siam-sc.math.cmu.edu" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
 theme: minima
