@@ -1,7 +1,6 @@
 ---
 layout: page
 title: People
-permalink: /people/
 ---
 ### Officers for the 2016-2017 academic year:
 
