@@ -1,0 +1,37 @@
+---
+layout: page
+---
+
+<div class="home">
+  <p>{{site.greeting}}</p>
+
+  <div class="wrapper">
+
+    <div class="contact">
+      <div class="body-col body-col-2">
+        <h1 class="page-heading">Contact</h1>
+        <p>{{ site.address }}</p>
+        <p>Email: {{ site.email }}</p>
+      </div>
+
+      <div class="body-col body-col-1">
+        <img src="logoBanner.gif" alt="Profile Picture">
+      </div>
+    </div>
+
+  </div>
+
+  <h1> Upcoming Events</h1>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <span class="post-meta">{{ post.subtitle }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
