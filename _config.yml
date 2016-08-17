@@ -23,7 +23,7 @@ address:  >
   Carnegie Mellon University<br>
   Pittsburgh, PA 15213
 baseurl: "/SIAM-CMU" # the subpath of your site, e.g. /blog
-url: "http://siam-sc.math.cmu.edu" # the base hostname & protocol for your site
+url: "http://sonv.github.io" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
