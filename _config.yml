@@ -22,8 +22,8 @@ address:  >
   Department of Mathematical Sciences<br>
   Carnegie Mellon University<br>
   Pittsburgh, PA 15213
-baseurl: "/SIAM-CMU" # the subpath of your site, e.g. /blog
-url: "http://sonv.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://sonv.github.io/SIAM-CMU/" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
