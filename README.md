@@ -1,5 +1,4 @@
-# SIAM-CMU
-Student chapter website
+# Readme
 
 ### What this is
 
