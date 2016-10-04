@@ -8,7 +8,6 @@ published: true
 ---
 Professor Deserno will talk about his "recent work on thin membranes (extending the Hamm/Kozlov model of curvature elasticity plus tilt)".
 
-Abstract will be posted soon.
 
   * Time: 05:30pm
   * Place: WEH 8220

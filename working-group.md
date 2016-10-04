@@ -10,11 +10,11 @@ This semester we will go through L.C. Evans' "Weak Convergence Methods for Nonli
 ### Schedule
 
 | Name                   | Chapter(s)   | Date      | Topic                                                         |
-|:-----------------------|:-------------|:----------|:--------------------------------------------------------------|
-| Sam Cohn               | 1 A, B, C, D | 9/8, 9/15 | Review, measures of concentration                             |
-| Adrian Hagerty         | 1 E          | (9/15)    | Measures of oscillation                                       |
-| Kevin Ou               | 4 A          |           | Concentrated compactness: variational problems                |
-| Yue Pu                 | 4 B1         |           | Concentrated compactness: critical gradient growth            |
-| Antoine Remond-Tiedrez | 4 B2         |           | Concentrated compactness: vorticity bounds, Euler's equations |
-| Son Van                | 5 A          |           | Compensated compactness: Direct Methods                       |
-| Giovanni Gravina       | 5 B, C       |           | Compensated compactness: div-curl lemma, elliptic systems     |
+|:-----------------------|:-------------|:------------|:--------------------------------------------------------------|
+| Sam Cohn               | 1 A, B, C, D | 9/8, 9/15   | Review, measures of concentration                             |
+| Adrian Hagerty         | 1 E          | 9/23        | Measures of oscillation                                       |
+| Kevin Ou               | 4 A          | 9/29, 10/6  | Concentrated compactness: variational problems                |
+| Yue Pu                 | 4 B1         | (10/13)     | Concentrated compactness: critical gradient growth            |
+| Antoine Remond-Tiedrez | 4 B2         |             | Concentrated compactness: vorticity bounds, Euler's equations |
+| Son Van                | 5 A          |             | Compensated compactness: Direct Methods                       |
+| Giovanni Gravina       | 5 B, C       |             | Compensated compactness: div-curl lemma, elliptic systems     |
