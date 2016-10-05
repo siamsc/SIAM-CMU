@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Thursday, November 3rd, 2016"
+author: Brian Kell, Google
+categories: seminar
+published: true
+---
+Our alumnus Brian Kell will give a talk on this date. The abstract will be posted later.
+
+
+  * Time: 05:30pm
+  * Place: WEH 8220
