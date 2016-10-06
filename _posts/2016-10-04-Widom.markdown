@@ -2,7 +2,7 @@
 layout: post
 title:  "Thursday, October 20th, 2016"
 author: Professor Michael Widom, Department of Physics, CMU
-categories: seminar, new
+categories: seminar new
 published: true
 ---
 Professor Widom will give a talk on this date. The abstract will be posted later.
