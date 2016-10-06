@@ -2,7 +2,7 @@
 layout: post
 title:  "Thursday, November 3rd, 2016"
 author: Brian Kell, Google
-categories: seminar
+categories: seminar, new
 published: true
 ---
 Our alumnus Brian Kell will give a talk on this date. The abstract will be posted later.

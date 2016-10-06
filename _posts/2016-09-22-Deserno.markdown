@@ -3,7 +3,7 @@ layout: post
 title:  "Thursday, September 22, 2016: Thin membranes"
 author: Professor Markus Deserno, Department of Physics, CMU
 #date:   2016-09-19 4:30:00
-categories: seminar
+categories: seminar, past
 published: true
 ---
 Professor Deserno will talk about his "recent work on thin membranes (extending the Hamm/Kozlov model of curvature elasticity plus tilt)".

@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Thursday, October 20th, 2016"
+author: Professor Michael Widom, Department of Physics, CMU
+categories: seminar, new
+published: true
+---
+Professor Widom will give a talk on this date. The abstract will be posted later.
+
+
+  * Time: 05:30pm
+  * Place: WEH 8220
