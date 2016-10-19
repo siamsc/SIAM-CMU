@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "Thursday, October 20th, 2016"
+title:  "Thursday, October 20th, 2016: Learning To Count: a story with many dimensions"
 author: Professor Michael Widom, Department of Physics, CMU
 categories: seminar new
 published: true
 ---
-Professor Widom will give a talk on this date. The abstract will be posted later.
+#### Abstract
+This talk is about the connection between the thermodynamics of quasicrystals and the combinatorial problem of multidimensional integer partitions.
 
 
   * Time: 05:30pm
