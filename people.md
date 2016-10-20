@@ -8,7 +8,7 @@ title: People
 
 + Vice President: Fan Yang, PhD student, Machine Learning
 
-+ Treasurer: Antoine Remond-Tiedrez, PhD student, Mathematical Sciences
++ Treasurer: Antoine Remond-Tiedrez, PhD candidate, Mathematical Sciences
 
 + Secretary: Son Van, PhD student, Mathematical Sciences
 
