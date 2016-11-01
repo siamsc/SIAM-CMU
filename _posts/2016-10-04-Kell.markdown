@@ -1,12 +1,14 @@
 ---
 layout: post
-title:  "Thursday, November 3rd, 2016"
+title:  "Thursday, November 3rd, 2016: Statistical techniques for the analysis of human computation"
 author: Brian Kell, Google
 categories: seminar new
 published: true
 ---
-Our alumnus Brian Kell will give a talk on this date. The abstract will be posted later.
+Our alumnus Brian Kell will give a talk on this date.
 
+#### Abstract
+The Shopping Metadata teams at Google use a variety of techniques to curate, organize, and understand huge amounts of data about products and merchant offers. One important technique is the use of human contributors who answer questions presented by a computer system. Several challenges arise here. In particular, how can we best determine "truth" when several contributors disagree, and how can we measure the quality of each contributor's work? In this talk, I will present an expectation-maximization algorithm of Dawid and Skene to tackle the first challenge, and an information-theoretic metric for collective human judgment developed by Waterhouse at Google to address the second.
 
   * Time: 05:30pm
   * Place: WEH 8220

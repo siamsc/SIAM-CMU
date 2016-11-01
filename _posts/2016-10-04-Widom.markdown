@@ -2,7 +2,7 @@
 layout: post
 title:  "Thursday, October 20th, 2016: Learning To Count: a story with many dimensions"
 author: Professor Michael Widom, Department of Physics, CMU
-categories: seminar new
+categories: seminar past
 published: true
 ---
 #### Abstract
