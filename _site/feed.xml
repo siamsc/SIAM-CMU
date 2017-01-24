@@ -5,8 +5,8 @@
     <description></description>
     <link>http://siam-sc.math.cmu.edu/</link>
     <atom:link href="http://siam-sc.math.cmu.edu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 Jan 2017 21:02:10 -0500</pubDate>
-    <lastBuildDate>Tue, 10 Jan 2017 21:02:10 -0500</lastBuildDate>
+    <pubDate>Mon, 23 Jan 2017 23:08:08 -0500</pubDate>
+    <lastBuildDate>Mon, 23 Jan 2017 23:08:08 -0500</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -21,11 +21,42 @@
 
 &lt;p&gt;&lt;a href=&quot;https://mfglabs.com/publications/download/paris-princeton.pdf&quot;&gt;https://mfglabs.com/publications/download/paris-princeton.pdf&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;This seems to be a good starting point for our look into Mean Field Games. Anyone who is interested in this topic, please join us on 1/19, Thursday in 7218 at 2:30PM where we will organize out the next month or so of talks- and of course enjoy free cookies and coffee!&lt;/p&gt;
+&lt;h3 id=&quot;schedule-so-far&quot;&gt;Schedule (so far)&lt;/h3&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;Fridays, 8:30am-9:30am&lt;/p&gt;
 
-&lt;p&gt;Participants registered so far (in no particular order): Kevin Ou, Son Van, Yue Pu, Han Nguyen, Sam Cohn, Ryan Xu, Won Eui Hong, Adrian Hagerty&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Name&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Chapter(s)&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Date&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Topic&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Adrian Hagerty&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;01/27&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Introduction&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Giovanni Gravina&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2(?)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;02/03&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;TBA&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Wony Hong&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;TBA&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;02/10&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;TBA&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Participants registered so far (in no particular order): Kevin Ou, Son Van,  Sam Cohn, Ryan Xu, Won Eui Hong, Adrian Hagerty, Yuanyuan Feng, Slav Kirov, Giovanni Gravia&lt;/p&gt;
 </description>
         <pubDate>Sat, 12 Nov 2016 00:00:00 -0500</pubDate>
         <link>http://siam-sc.math.cmu.edu/seminar/working/2016/11/12/Spring17.html</link>
