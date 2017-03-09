@@ -5,8 +5,8 @@
     <description></description>
     <link>http://siam-sc.math.cmu.edu/</link>
     <atom:link href="http://siam-sc.math.cmu.edu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 24 Jan 2017 09:27:57 -0500</pubDate>
-    <lastBuildDate>Tue, 24 Jan 2017 09:27:57 -0500</lastBuildDate>
+    <pubDate>Thu, 09 Mar 2017 10:23:01 -0500</pubDate>
+    <lastBuildDate>Thu, 09 Mar 2017 10:23:01 -0500</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -31,7 +31,7 @@
       &lt;th style=&quot;text-align: left&quot;&gt;Name&lt;/th&gt;
       &lt;th style=&quot;text-align: center&quot;&gt;Chapter(s)&lt;/th&gt;
       &lt;th style=&quot;text-align: center&quot;&gt;Date&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Topic&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Topic&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -39,19 +39,43 @@
       &lt;td style=&quot;text-align: left&quot;&gt;Adrian Hagerty&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;01/27&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Introduction&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Introduction&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Giovanni Gravina&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;2(?)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;02/03&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;TBA&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;When’s the meeting start?&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Wony Hong&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;TBA&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Ryan Xu&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;02/10&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;TBA&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Hamilton-Jacobi-Bellman equation&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Giovanni Gravina&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;02/17&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;When’s the meeting start? (cont.)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Suam Cohn&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;02/24&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;When’s the meeting start? (cont.)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Won Eui Hong&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;03/01&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Oil production&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Son Van&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;03/24&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Mexican wave&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
