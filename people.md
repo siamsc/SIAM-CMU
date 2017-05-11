@@ -2,6 +2,16 @@
 layout: page
 title: People
 ---
+### Officers for the 2017-2018 academic year:
+
++ President: Adrian Hagerty, PhD candidate, Mathematical Sciences
+
++ Vice President: Son Van, PhD student, Mathematical Sciencs
+
++ Treasurer: Antoine Remond-Tiedrez, PhD candidate, Mathematical Sciences
+
++ Secretary: Won Eui Hong, PhD student, Mathematical Sciences
+
 ### Officers for the 2016-2017 academic year:
 
 + President: Adrian Hagerty, PhD candidate, Mathematical Sciences
