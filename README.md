@@ -49,4 +49,4 @@ You can see a demo locally on your machine by running the following
     git commit -m "[comments]"
     git push
 ### Publish
-scopy everything in the directory `_site` to directory `public` on our hosting machine. That will do it!
+scopy everything in the directory `_site` to directory `public` on our hosting machine. You should get in touch with Son Van for information regarding login to the host.
