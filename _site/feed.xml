@@ -5,12 +5,18 @@
     <description></description>
     <link>http://siam-sc.math.cmu.edu/</link>
     <atom:link href="http://siam-sc.math.cmu.edu/feed.xml" rel="self" type="application/rss+xml"/>
+<<<<<<< HEAD
     <pubDate>Thu, 17 Aug 2017 11:20:18 -0400</pubDate>
     <lastBuildDate>Thu, 17 Aug 2017 11:20:18 -0400</lastBuildDate>
+=======
+    <pubDate>Wed, 09 Aug 2017 23:20:27 -0400</pubDate>
+    <lastBuildDate>Wed, 09 Aug 2017 23:20:27 -0400</lastBuildDate>
+>>>>>>> 4444046c735b1837c91eeeff5891071f71ad5df1
     <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>Fall 2017</title>
+<<<<<<< HEAD
         <description>&lt;p&gt;We need to pick a topic. Here’s the list that has been suggested. Please vote &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSdoHGHfDBExVl5WBneK4IU4cnSIsX4K0Rnw1RD6gIavQ3Uczg/viewform&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;survey-of-geometric-measure-theory&quot;&gt;Survey of Geometric Measure Theory&lt;/h2&gt;
@@ -51,6 +57,13 @@
         <pubDate>Thu, 17 Aug 2017 00:00:00 -0400</pubDate>
         <link>http://siam-sc.math.cmu.edu/seminar/working/2017/08/17/Spring-2017.html</link>
         <guid isPermaLink="true">http://siam-sc.math.cmu.edu/seminar/working/2017/08/17/Spring-2017.html</guid>
+=======
+        <description>&lt;p&gt;We are looking for suggestions for topics to read.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 11 May 2017 00:00:00 -0400</pubDate>
+        <link>http://siam-sc.math.cmu.edu/seminar/working/2017/05/11/Fall17.html</link>
+        <guid isPermaLink="true">http://siam-sc.math.cmu.edu/seminar/working/2017/05/11/Fall17.html</guid>
+>>>>>>> 4444046c735b1837c91eeeff5891071f71ad5df1
         
         
         <category>seminar</category>
