@@ -5,65 +5,23 @@
     <description></description>
     <link>http://siam-sc.math.cmu.edu/</link>
     <atom:link href="http://siam-sc.math.cmu.edu/feed.xml" rel="self" type="application/rss+xml"/>
-<<<<<<< HEAD
-    <pubDate>Thu, 17 Aug 2017 11:20:18 -0400</pubDate>
-    <lastBuildDate>Thu, 17 Aug 2017 11:20:18 -0400</lastBuildDate>
-=======
-    <pubDate>Wed, 09 Aug 2017 23:20:27 -0400</pubDate>
-    <lastBuildDate>Wed, 09 Aug 2017 23:20:27 -0400</lastBuildDate>
->>>>>>> 4444046c735b1837c91eeeff5891071f71ad5df1
+    <pubDate>Thu, 24 Aug 2017 10:12:19 -0400</pubDate>
+    <lastBuildDate>Thu, 24 Aug 2017 10:12:19 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>Fall 2017</title>
-<<<<<<< HEAD
-        <description>&lt;p&gt;We need to pick a topic. Here’s the list that has been suggested. Please vote &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSdoHGHfDBExVl5WBneK4IU4cnSIsX4K0Rnw1RD6gIavQ3Uczg/viewform&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+        <title>Fall 2017: Geometric Measure Theory</title>
+        <description>&lt;p&gt;We have voted to pursue Geometric Measure Theory this semester. We will meet every week on &lt;strong&gt;Thursday, 2:30-3:30&lt;/strong&gt; in &lt;strong&gt;WEH 7218&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;h2 id=&quot;survey-of-geometric-measure-theory&quot;&gt;Survey of Geometric Measure Theory&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://notesfromkevinrvixie.org/2012/11/02/geometric-measure-theory-by-the-book-2/&quot;&gt;This blog&lt;/a&gt; post lists a few texts which could serve as references&lt;/p&gt;
+&lt;p&gt;We will most likely follow the lecture notes by Leon Simon, which is available &lt;a href=&quot;http://web.stanford.edu/class/math285/ts-gmt.pdf&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;There are lots of different directions we could go in- Beyond the preliminaries, Minimal Surfaces, Mumford-Shah functional, and Tangent Measures jump out as fruitful sub-topics.&lt;/p&gt;
+&lt;p&gt;Another great resource is Frank Morgan’s book, which is freely available to CMU students &lt;a href=&quot;http://www.sciencedirect.com/science/book/9780128044896&quot;&gt;via the library&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Some texts from the blog post that I think we can use to build an outline for the survey:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Geometric Measure Theory: A Beginners Guide, Frank Morgan (20 bucks on Amazon for the 4th edition, only four copies left though)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Lectures on Geometric Measure Theory, Leon Simon (pdf available on his site)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;regularity-structures&quot;&gt;Regularity Structures&lt;/h2&gt;
-&lt;p&gt;It is an application of the rough path theory introduced in mid-90s. Fields medalist Martin Hairer pioneered the research and successfully applied it to stochastic PDE less than a decade ago. The theory of regularity structures is more algebraic in nature and more general than Taylor’s expansion. It can deal with not only regular functions that admits classical or weak derivatives, but also rough functions and even distributions. (I believe that the theory should be in the toolbox of every analyst of the 21st century, just like distributions and Sobolev spaces in the 20th century. And since you guys didn’t vote for “rough path theory” last time, I then use this name “regularity structures” to make you think of the “bright” side.)&lt;/p&gt;
-
-&lt;h2 id=&quot;potential-theory&quot;&gt;Potential Theory&lt;/h2&gt;
-&lt;p&gt;It originated from Newton’s gravitational law and had been the center of mathematical physics for centuries. Solution to Laplace equation via Green’s function is the classical and fundamental example of potential theory. Modern version advances to an abstract level thanks to topology, measure theory, and harmonic analysis. Hardcore analyses such as capacity theory and singular integral will be used. In addition to physics, the theory also has wide and natural applications in probability. (Potential theory will be rather technical and it will reinforce participants’ already solid background.)&lt;/p&gt;
-
-&lt;h2 id=&quot;calculus-of-variations-on-manifolds-and-geometric-flows&quot;&gt;Calculus of Variations on Manifolds and Geometric Flows&lt;/h2&gt;
-&lt;p&gt;Quite a few PDEs are naturally studied as critical points of variational principles, and they can be easily generalized to (intrinsic) manifolds. On the other hand, many geometric concepts/theorems such as geodesics, conjugate loci, and Myers-Bonnet are derived from variational principles. A dynamic version of a variational problem will usually give us a gradient flow, an evolutionary PDE on a manifold. Besides its own interests, studies of these flows usually give hint to numerical methods in solving the variational problem. Flows can be either extrinsic like mean curvature flow or intrinsic like Ricci flow. By stripping away the Euclidean structure, analysts will see the power and/or limitations of standard PDE techniques while learning some geometries. It will also provide a natural motivation to study geometric measure theory, from a functional analytic point of view (test functions and distributions). (The elegance of geometry will be an awesome getaway from the ugliness of daily research of analysis. Study of geometry provides a gateway to many other mathematical fields, which is a great opportunity for those researchers who want to play in the intersection of fields.)&lt;/p&gt;
-
-&lt;h2 id=&quot;dispersive-partial-differential-equations&quot;&gt;Dispersive Partial Differential Equations&lt;/h2&gt;
-&lt;p&gt;Have you ever wondered about Schrodinger’s equation without know what it really is? If you have, the study of Dispersive PDEs will tell you a lot about this equation. You will learn not only the “toy” linear Schrodinger equation one learns in introduction physics course, but also the fancy nonlinear Schrodinger equation. Also, if you are into inequalities, Sobolev embedding, and a lot of hard analysis, you will find this subject very interesting and beautiful. Last but not least, the field of Dispersive PDE is a very active research field and it’s certainly a good thing to know something about it just for bus stop conversations.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Text: Terry Tao’s book on the subject. The first 3 chapters are &lt;a href=&quot;http://www.math.ucla.edu/~tao/preprints/chapter.pdf&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;hydrodynamic-models&quot;&gt;Hydrodynamic Models&lt;/h2&gt;
-&lt;p&gt;Fluid dynamics, and hydrodynamics in particular, has a long history of providing mathematical models which look simple and yet turn out to be remarkably tricky to fully understand. Even to this day, simple questions pertaining to the existence and regularity of solutions to simple models (e.g. the Euler equations) are open. Very recently (in 2017!), Peter Constantin published a book entitled “Analysis of Hydrodynamic Models”. This is a 60 page book written by a master of this very active field - what better starting point could there be for this fall’s working group?&lt;/p&gt;
+&lt;p&gt;Scheduling will be decided later.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 17 Aug 2017 00:00:00 -0400</pubDate>
-        <link>http://siam-sc.math.cmu.edu/seminar/working/2017/08/17/Spring-2017.html</link>
-        <guid isPermaLink="true">http://siam-sc.math.cmu.edu/seminar/working/2017/08/17/Spring-2017.html</guid>
-=======
-        <description>&lt;p&gt;We are looking for suggestions for topics to read.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 11 May 2017 00:00:00 -0400</pubDate>
-        <link>http://siam-sc.math.cmu.edu/seminar/working/2017/05/11/Fall17.html</link>
-        <guid isPermaLink="true">http://siam-sc.math.cmu.edu/seminar/working/2017/05/11/Fall17.html</guid>
->>>>>>> 4444046c735b1837c91eeeff5891071f71ad5df1
+        <pubDate>Thu, 24 Aug 2017 00:00:00 -0400</pubDate>
+        <link>http://siam-sc.math.cmu.edu/seminar/working/2017/08/24/Fall-2017.html</link>
+        <guid isPermaLink="true">http://siam-sc.math.cmu.edu/seminar/working/2017/08/24/Fall-2017.html</guid>
         
         
         <category>seminar</category>
@@ -73,7 +31,7 @@
       </item>
     
       <item>
-        <title>Spring 2017</title>
+        <title>Spring 2017: Mean field games</title>
         <description>&lt;p&gt;Based on the result of the poll, we will be learning the theory of Mean Field Games.&lt;/p&gt;
 
 &lt;p&gt;Mean Field Games as a mathematical discipline were pioneered by Pierre-Louis Lions and model the actions of large populations (or particles) which interact somehow with their near neighbors. The population here is viewed as a continuum or density, allowing us to use PDE techniques in our analysis.&lt;/p&gt;
@@ -245,7 +203,7 @@
       </item>
     
       <item>
-        <title>Fall 2016</title>
+        <title>Fall 2016: Weak convergence methods</title>
         <description>&lt;p&gt;This semester we will go through L.C. Evans’ “Weak Convergence Methods for Nonlinear Partial Differential Equations”. We meet every Thursday from 2:30 pm to 3:30 pm in WEH 7218.&lt;/p&gt;
 
 &lt;h3 id=&quot;schedule&quot;&gt;Schedule&lt;/h3&gt;
