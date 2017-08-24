@@ -5,19 +5,42 @@
     <description></description>
     <link>http://siam-sc.math.cmu.edu/</link>
     <atom:link href="http://siam-sc.math.cmu.edu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 24 Aug 2017 10:14:41 -0400</pubDate>
-    <lastBuildDate>Thu, 24 Aug 2017 10:14:41 -0400</lastBuildDate>
+    <pubDate>Thu, 24 Aug 2017 10:28:23 -0400</pubDate>
+    <lastBuildDate>Thu, 24 Aug 2017 10:28:23 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>Fall 2017: Geometric Measure Theory</title>
-        <description>&lt;p&gt;Geometric Measure Theory is voted to be the topic this semester. We will meet every week on &lt;strong&gt;Thursday, 2:30-3:30&lt;/strong&gt; in &lt;strong&gt;WEH 7218&lt;/strong&gt;.&lt;/p&gt;
+        <description>&lt;h3 id=&quot;the-first-meeting-will-be-in-weh-8201-on-august-31&quot;&gt;The first meeting will be in WEH 8201 on August 31.&lt;/h3&gt;
+
+&lt;p&gt;Geometric Measure Theory is voted to be the topic this semester. We will meet every week on &lt;strong&gt;Thursday, 2:30-3:30&lt;/strong&gt; in &lt;strong&gt;WEH 7218&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;We will most likely follow the lecture notes by Leon Simon, which is available &lt;a href=&quot;http://web.stanford.edu/class/math285/ts-gmt.pdf&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Another great resource is Frank Morgan’s book, which is freely available to CMU students &lt;a href=&quot;http://www.sciencedirect.com/science/book/9780128044896&quot;&gt;via the library&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Scheduling will be decided later.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Name&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Chapter(s)&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Date&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Topic&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Antoine Remond-Tiedrez&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;08/31&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Introduction and scheduling&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Participants (so far that is known to the organizers): Adrian Hagerty, Antoine Remond-Tiedrez, Son Van&lt;/p&gt;
 </description>
         <pubDate>Thu, 24 Aug 2017 00:00:00 -0400</pubDate>
         <link>http://siam-sc.math.cmu.edu/seminar/working/2017/08/24/Fall-2017.html</link>
