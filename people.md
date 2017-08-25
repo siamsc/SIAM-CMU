@@ -6,7 +6,7 @@ title: People
 
 + President: Adrian Hagerty, PhD candidate, Mathematical Sciences
 
-+ Vice President: Son Van, PhD student, Mathematical Sciencs
++ Vice President: Son Van, PhD student, Mathematical Sciences
 
 + Treasurer: Antoine Remond-Tiedrez, PhD candidate, Mathematical Sciences
 
@@ -20,7 +20,7 @@ title: People
 
 ### Officers for the 2016-2017 academic year:
 
-+ Adrian Hagerty, Fan Yang, Antoine Redmond-Tiedrez, Son Van
++ Adrian Hagerty, Fan Yang, Antoine Remond-Tiedrez, Son Van
 
 ### Officers during the 2015-2016 academic year:
 + Sam Cohn, Yue Pu, Adrian Hagerty, Ryan Xu
