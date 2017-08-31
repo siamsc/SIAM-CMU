@@ -5,8 +5,8 @@
     <description></description>
     <link>http://siam-sc.math.cmu.edu/</link>
     <atom:link href="http://siam-sc.math.cmu.edu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 25 Aug 2017 11:14:08 -0400</pubDate>
-    <lastBuildDate>Fri, 25 Aug 2017 11:14:08 -0400</lastBuildDate>
+    <pubDate>Thu, 31 Aug 2017 15:46:18 -0400</pubDate>
+    <lastBuildDate>Thu, 31 Aug 2017 15:46:18 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -18,6 +18,17 @@
 &lt;p&gt;We will most likely follow the lecture notes by Leon Simon, which is available &lt;a href=&quot;http://web.stanford.edu/class/math285/ts-gmt.pdf&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Another great resource is Frank Morgan’s book, which is freely available to CMU students &lt;a href=&quot;http://www.sciencedirect.com/science/book/9780128044896&quot;&gt;via the library&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For the first part of the working group, good references are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Evans &amp;amp; Gariepy’s “Measure theory and fine properties of functions”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Maggi’s “Sets of finite perimeter and geometric variational problems”. This is available &lt;a href=&quot;http://ebookcentral.proquest.com/lib/cm/detail.action?docID=989154&quot;&gt;via the library&lt;/a&gt; as well.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;schedule-so-far&quot;&gt;Schedule (so far)&lt;/h2&gt;
 
@@ -37,10 +48,34 @@
       &lt;td style=&quot;text-align: center&quot;&gt;08/31&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;Introduction and scheduling&lt;/td&gt;
     &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Adrian&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;09/07&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Hausdorff measure&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Kerrek&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Differentiation of Radon measure, approximate limits, densities&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Giovanni&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Lipschitz functions, area and coarea formulas, sets of finite perimeters&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Currents&lt;/td&gt;
+    &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;Participants (so far that is known to the organizers): Adrian Hagerty, Antoine Remond-Tiedrez, Son Van&lt;/p&gt;
+&lt;p&gt;Participants (so far that is known to the organizers): Adrian Hagerty, Antoine Remond-Tiedrez, Son Van, Giovanni Gravia, Won Eui Hong, Kerrek Stinson, Kayla Bollinger, Sam Cohn,  Likhit Ganedi, Yangxi (Kevin) Ou&lt;/p&gt;
 </description>
         <pubDate>Thu, 24 Aug 2017 00:00:00 -0400</pubDate>
         <link>http://siam-sc.math.cmu.edu/seminar/working/2017/08/24/Fall-2017.html</link>
