@@ -5,8 +5,8 @@
     <description></description>
     <link>http://siam-sc.math.cmu.edu/</link>
     <atom:link href="http://siam-sc.math.cmu.edu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 31 Aug 2017 15:46:18 -0400</pubDate>
-    <lastBuildDate>Thu, 31 Aug 2017 15:46:18 -0400</lastBuildDate>
+    <pubDate>Thu, 31 Aug 2017 16:27:40 -0400</pubDate>
+    <lastBuildDate>Thu, 31 Aug 2017 16:27:40 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -85,6 +85,25 @@
         <category>seminar</category>
         
         <category>working</category>
+        
+      </item>
+    
+      <item>
+        <title>Thursday, October 5th, 2017</title>
+        <description>&lt;h4 id=&quot;abstract&quot;&gt;Abstract&lt;/h4&gt;
+
+&lt;p&gt;TBA&lt;/p&gt;
+</description>
+        <pubDate>Thu, 24 Aug 2017 00:00:00 -0400</pubDate>
+        <link>http://siam-sc.math.cmu.edu/seminar/new/f17/2017/08/24/Lanusse.html</link>
+        <guid isPermaLink="true">http://siam-sc.math.cmu.edu/seminar/new/f17/2017/08/24/Lanusse.html</guid>
+        
+        
+        <category>seminar</category>
+        
+        <category>new</category>
+        
+        <category>F17</category>
         
       </item>
     
