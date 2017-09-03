@@ -5,8 +5,8 @@
     <description></description>
     <link>http://siam-sc.math.cmu.edu/</link>
     <atom:link href="http://siam-sc.math.cmu.edu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Sep 2017 09:33:22 -0400</pubDate>
-    <lastBuildDate>Sun, 03 Sep 2017 09:33:22 -0400</lastBuildDate>
+    <pubDate>Sun, 03 Sep 2017 09:34:33 -0400</pubDate>
+    <lastBuildDate>Sun, 03 Sep 2017 09:34:33 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -110,7 +110,7 @@
       </item>
     
       <item>
-        <title>Spring 2017: Mean field games</title>
+        <title>Spring 2017: Mean Field Games</title>
         <description>&lt;p&gt;Based on the result of the poll, we will be learning the theory of Mean Field Games.&lt;/p&gt;
 
 &lt;p&gt;Mean Field Games as a mathematical discipline were pioneered by Pierre-Louis Lions and model the actions of large populations (or particles) which interact somehow with their near neighbors. The population here is viewed as a continuum or density, allowing us to use PDE techniques in our analysis.&lt;/p&gt;
@@ -282,7 +282,7 @@
       </item>
     
       <item>
-        <title>Fall 2016: Weak convergence methods</title>
+        <title>Fall 2016: Weak Convergence Methods</title>
         <description>&lt;p&gt;This semester we will go through L.C. Evans’ “Weak Convergence Methods for Nonlinear Partial Differential Equations”. We meet every Thursday from 2:30 pm to 3:30 pm in WEH 7218.&lt;/p&gt;
 
 &lt;h3 id=&quot;schedule&quot;&gt;Schedule&lt;/h3&gt;
