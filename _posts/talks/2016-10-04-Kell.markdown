@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Thursday, November 3rd, 2016: Statistical techniques for the analysis of human computation"
-author: Brian Kell, Google
+author: Dr. Brian Kell, Google
 categories: seminar past F16
 published: true
 ---
