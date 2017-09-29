@@ -1,10 +1,32 @@
 ---
 layout: post
-title:  "Thursday, October 5th, 2017"
+title:  "Thursday, October 5th, 2017: Applications of Statistical Signal Processing and Machine Learning in
+Cosmology"
 author: Dr. Francois Lanusse, Department of Physics, CMU
 categories: seminar new F17
 published: true
 ---
+
+* Time: Thursday, October 5th, 2017 at 05:30pm
+* Place: WEH 8220
+
 #### Abstract
 
-TBA
+
+The main challenge of Cosmology in the 21st century is to understand the
+nature of Dark Matter and Dark Energy, which combined seem to account for a
+staggering 95% of our Universe despite remaining complete mysteries. To shed
+some much needed light on these questions, Cosmologists rely on a variety of
+probes such as measuring the Cosmic Microwave Background (relic radiation from
+the early Universe) or the gravitational lensing effect (deflection of light
+rays by massive structures). However, extracting cosmological information from
+the raw data collected by current or next generation surveys involves a large
+number of statistical and signal processing challenges.
+In this talk I will first present applications of sparse signal representation
+(e.g. wavelets) to address some of these challenges, in particular to solve
+large scale inverse problems (Compressed Sensing theory). I will also present
+some exciting applications of deep learning, including very recent
+developments based on graph theory.
+
+___
+Pizzas will be served.
