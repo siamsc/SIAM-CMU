@@ -3,7 +3,7 @@ layout: post
 title:  "Thursday, October 5th, 2017: Applications of Statistical Signal Processing and Machine Learning in
 Cosmology"
 author: Dr. Francois Lanusse, Department of Physics, CMU
-categories: seminar new F17
+categories: seminar past F17
 published: true
 ---
 
