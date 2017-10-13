@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Thursday, November 16th, 2017: Mathematical Modeling of Electrochemical Energy Technologies"
+author: Prof. Shawn Litster, Department of Mechanical Engineering, CMU
+categories: seminar new F17
+published: true
+---
+
+* Time: Thursday, November 16th, 2017 at 05:30pm
+* Place: WEH 8220
+
+#### Abstract
+
+TBA
+
+
+___
+Pizzas will be served.
