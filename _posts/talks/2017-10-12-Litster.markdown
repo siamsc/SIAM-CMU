@@ -11,7 +11,7 @@ published: true
 
 #### Abstract
 
-TBA
+Fuel cells and batteries are electrochemical devices that allows us to generate electricity for a wide variety of applications without being beholden to the inefficiencies of heat engines (e.g., internal combustion engines) and the Carnot efficiency limit. In the case of advancing efficient low emissions electric vehicles, the design of these electrochemical engines requires a new design paradigm for automotive engineering, where the power and range of the vehicle is largely defined by materials and morphologies at length scales ranging from the molecular-scale to electrode thicknesses the diameter of a hair. Due to the inherent challenges of direct measurement at these scales, mathematical modeling plays a crucial role in optimizing materials, composition, and morphology. This talk will introduce fuel cell and battery technologies and then will introduce the various phenomenological mathematical models that are applied in simulating these devices as well as the application of numerical methods.
 
 
 ___
