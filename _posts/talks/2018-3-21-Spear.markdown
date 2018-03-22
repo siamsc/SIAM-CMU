@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Thursday, April 5th, 2018: Mathematics in Economics: Overlapping Generations Models"
+author: Prof. Stephen E. Spear, Tepper School of Business, CMU
+categories: seminar new S18
+published: true
+---
+
+* Time: Thursday, April 5th, 2018 at 5:30pm
+* Place: WEH 8220
+
+#### Abstract
+
+This talk will highlight various areas of mathematics that get used frequently in theoretical economics.  I will use my own research on a particular dynamic economic model -- the so-called overlapping generations model -- to highlight the applications of the mathematics of constrained optimization in economic analysis, the study of solutions to non-linear equations, and mathematical applications that arise in the study of stochastic dynamic economic systems.
+
+___
+Pizzas will be served.
