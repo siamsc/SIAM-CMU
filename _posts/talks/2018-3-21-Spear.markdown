@@ -2,7 +2,7 @@
 layout: post
 title:  "Thursday, April 5th, 2018: Mathematics in Economics: Overlapping Generations Models"
 author: Prof. Stephen E. Spear, Tepper School of Business, CMU
-categories: seminar new S18
+categories: seminar past S18
 published: true
 ---
 

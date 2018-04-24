@@ -5,9 +5,66 @@
     <description></description>
     <link>http://siam-sc.math.cmu.edu/</link>
     <atom:link href="http://siam-sc.math.cmu.edu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 21 Mar 2018 20:16:07 -0400</pubDate>
-    <lastBuildDate>Wed, 21 Mar 2018 20:16:07 -0400</lastBuildDate>
+    <pubDate>Tue, 24 Apr 2018 13:13:23 -0400</pubDate>
+    <lastBuildDate>Tue, 24 Apr 2018 13:13:23 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Thursday, May 3rd, 2018: On the Hoffman constant for systems of linear inequalities</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Time: Thursday, May 3rd, 2018 at 5:30pm&lt;/li&gt;
+  &lt;li&gt;Place: Wean Hall 8220&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;abstract&quot;&gt;Abstract&lt;/h4&gt;
+
+&lt;p&gt;A classical result of Hoffman (1952) shows that the distance from a point $u$ to a non-empty polyhedron defined by the system of inequalities $Ax \le b$ can be bounded above in terms of the “error” or “residual” $(Au-b)_+ = max(0,Au-b)$.  More precisely, the distance from $u$ to the polyhedron ${x: Ax \le b}$ is bounded above by $H(A)\cdot |(Au-b)_+|$ for some Hoffman constant $H(A)$ that depends only on the matrix $A$.  This type of “error bound” plays a fundamental role for establishing convergence properties of a wide variety of algorithms for optimization problems.&lt;/p&gt;
+
+&lt;p&gt;This talk will give a novel and constructive proof of existence and characterization of the Hoffman constant $H(A)$.  We highlight the striking similarity between the Hoffman constant $H(A)$ and the smallest singular value of $A$. The new characterization of the Hoffman constant yields some interesting new insights and an algorithm to compute $H(A)$ – a notoriously difficult computational problem.&lt;/p&gt;
+
+&lt;p&gt;The talk will be entirely self-contained and easily accessible.  The only required prior knowledge is basic matrix algebra.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Pizza will be served.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 24 Apr 2018 00:00:00 -0400</pubDate>
+        <link>http://siam-sc.math.cmu.edu/seminar/new/s18/2018/04/24/Javier-Pena.html</link>
+        <guid isPermaLink="true">http://siam-sc.math.cmu.edu/seminar/new/s18/2018/04/24/Javier-Pena.html</guid>
+        
+        
+        <category>seminar</category>
+        
+        <category>new</category>
+        
+        <category>S18</category>
+        
+      </item>
+    
+      <item>
+        <title>Friday, April 6th, 2018</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Time: Friday, April 6th, 2018 at 3:30pm&lt;/li&gt;
+  &lt;li&gt;Place: Doherty 1117&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;abstract&quot;&gt;Abstract&lt;/h4&gt;
+&lt;p&gt;Reza Malek-Madani is a program officer for the Applied and Computational Analysis Program at the Office of Naval Research (ONR). His program focuses on Multi-Scale/Multi-Physics Modeling, Dynamical Systems and Oceanic and Atmospheric Modeling, and Inverse Methods. This talk is aimed at graduate students and will discuss opportunities in non-academic math research careers.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;There will be complimentary coffee and cookies!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 02 Apr 2018 00:00:00 -0400</pubDate>
+        <link>http://siam-sc.math.cmu.edu/seminar/past/s18/2018/04/02/Malek-Madani.html</link>
+        <guid isPermaLink="true">http://siam-sc.math.cmu.edu/seminar/past/s18/2018/04/02/Malek-Madani.html</guid>
+        
+        
+        <category>seminar</category>
+        
+        <category>past</category>
+        
+        <category>S18</category>
+        
+      </item>
     
       <item>
         <title>Thursday, April 5th, 2018: Mathematics in Economics: Overlapping Generations Models</title>
@@ -24,13 +81,13 @@
 &lt;p&gt;Pizzas will be served.&lt;/p&gt;
 </description>
         <pubDate>Wed, 21 Mar 2018 00:00:00 -0400</pubDate>
-        <link>http://siam-sc.math.cmu.edu/seminar/new/s18/2018/03/21/Spear.html</link>
-        <guid isPermaLink="true">http://siam-sc.math.cmu.edu/seminar/new/s18/2018/03/21/Spear.html</guid>
+        <link>http://siam-sc.math.cmu.edu/seminar/past/s18/2018/03/21/Spear.html</link>
+        <guid isPermaLink="true">http://siam-sc.math.cmu.edu/seminar/past/s18/2018/03/21/Spear.html</guid>
         
         
         <category>seminar</category>
         
-        <category>new</category>
+        <category>past</category>
         
         <category>S18</category>
         
@@ -480,100 +537,6 @@ developments based on graph theory.&lt;/p&gt;
         <category>past</category>
         
         <category>F16</category>
-        
-      </item>
-    
-      <item>
-        <title>Thursday, September 22, 2016: Thin membranes</title>
-        <description>&lt;p&gt;Professor Deserno will talk about his “recent work on thin membranes (extending the Hamm/Kozlov model of curvature elasticity plus tilt)”.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Time: 05:30pm&lt;/li&gt;
-  &lt;li&gt;Place: WEH 8220&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 22 Sep 2016 00:00:00 -0400</pubDate>
-        <link>http://siam-sc.math.cmu.edu/seminar/past/f16/2016/09/22/Deserno.html</link>
-        <guid isPermaLink="true">http://siam-sc.math.cmu.edu/seminar/past/f16/2016/09/22/Deserno.html</guid>
-        
-        
-        <category>seminar</category>
-        
-        <category>past</category>
-        
-        <category>F16</category>
-        
-      </item>
-    
-      <item>
-        <title>Fall 2016: Weak Convergence Methods</title>
-        <description>&lt;p&gt;This semester we will go through L.C. Evans’ “Weak Convergence Methods for Nonlinear Partial Differential Equations”. We meet every Thursday from 2:30 pm to 3:30 pm in WEH 7218.&lt;/p&gt;
-
-&lt;h3 id=&quot;schedule&quot;&gt;Schedule&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Name&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Chapter(s)&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Date&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Topic&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Sam Cohn&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1 A, B, C, D&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;9/8, 9/15&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Review, measures of concentration&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Adrian Hagerty&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1 E&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;9/23&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Measures of oscillation&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Kevin Ou&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;4 A&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;9/29, 10/6&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Concentrated compactness: variational problems&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Yue Pu&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;4 B1&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;10/13, 10/20&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Concentrated compactness: critical gradient growth&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Antoine Remond-Tiedrez&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;4 B2&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;10/27, 11/03&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Concentrated compactness: vorticity bounds, Euler’s equations&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Son Van&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;5 A&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;11/10&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Compensated compactness: Direct Methods&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Giovanni Gravina&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;5 B, C&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;11/17&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Compensated compactness: div-curl lemma, elliptic systems&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Wed, 31 Aug 2016 00:00:00 -0400</pubDate>
-        <link>http://siam-sc.math.cmu.edu/seminar/working/2016/08/31/Fall16.html</link>
-        <guid isPermaLink="true">http://siam-sc.math.cmu.edu/seminar/working/2016/08/31/Fall16.html</guid>
-        
-        
-        <category>seminar</category>
-        
-        <category>working</category>
         
       </item>
     
