@@ -2,7 +2,7 @@
 layout: post
 title:  "Thursday, May 3rd, 2018: On the Hoffman constant for systems of linear inequalities"
 author: Prof. Javier Pena, Tepper School of Business
-categories: seminar new S18
+categories: seminar past S18
 published: true
 ---
 
