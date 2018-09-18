@@ -5,8 +5,13 @@
     <description></description>
     <link>http://siam-sc.math.cmu.edu/</link>
     <atom:link href="http://siam-sc.math.cmu.edu/feed.xml" rel="self" type="application/rss+xml"/>
+<<<<<<< HEAD
     <pubDate>Fri, 07 Sep 2018 19:54:55 -0400</pubDate>
     <lastBuildDate>Fri, 07 Sep 2018 19:54:55 -0400</lastBuildDate>
+=======
+    <pubDate>Mon, 27 Aug 2018 22:54:47 -0400</pubDate>
+    <lastBuildDate>Mon, 27 Aug 2018 22:54:47 -0400</lastBuildDate>
+>>>>>>> 53f2c2d0f5955bb30b36dde3b884a98e237a8a6a
     <generator>Jekyll v3.2.1</generator>
     
       <item>
