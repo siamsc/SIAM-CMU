@@ -5,13 +5,8 @@
     <description></description>
     <link>http://siam-sc.math.cmu.edu/</link>
     <atom:link href="http://siam-sc.math.cmu.edu/feed.xml" rel="self" type="application/rss+xml"/>
-<<<<<<< HEAD
-    <pubDate>Fri, 07 Sep 2018 19:54:55 -0400</pubDate>
-    <lastBuildDate>Fri, 07 Sep 2018 19:54:55 -0400</lastBuildDate>
-=======
-    <pubDate>Mon, 27 Aug 2018 22:54:47 -0400</pubDate>
-    <lastBuildDate>Mon, 27 Aug 2018 22:54:47 -0400</lastBuildDate>
->>>>>>> 53f2c2d0f5955bb30b36dde3b884a98e237a8a6a
+    <pubDate>Tue, 02 Oct 2018 11:17:34 -0400</pubDate>
+    <lastBuildDate>Tue, 02 Oct 2018 11:17:34 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -55,7 +50,13 @@
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Won Eui Hong&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;10/04, 10/11&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10/04&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;The Euler equations: fundamentals and sufficient conditions for regularity (cont.)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Antoine Remond-Tiedrez&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10/11&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;The Lagrangian-Eulerian structure of (some) hydrodynamical models&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
@@ -306,7 +307,7 @@
     
       <item>
         <title>Fall 2017: Geometric Measure Theory</title>
-        <description>&lt;h3 id=&quot;the-first-meeting-will-be-in-weh-8201-on-august-31&quot;&gt;The first meeting will be in WEH 8201 on August 31.&lt;/h3&gt;
+        <description>&lt;h3 id=&quot;the-first-meeting-will-be-in-weh-8201-on-august-31&quot;&gt;The first meeting will be in WEH 8201 on August 31.###&lt;/h3&gt;
 
 &lt;p&gt;Geometric Measure Theory is voted to be the topic this semester. We will meet every week on &lt;strong&gt;Thursday, 2:30-3:30&lt;/strong&gt; in &lt;strong&gt;WEH 7218&lt;/strong&gt;.&lt;/p&gt;
 
