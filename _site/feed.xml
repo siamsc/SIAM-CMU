@@ -5,9 +5,37 @@
     <description></description>
     <link>http://siam-sc.math.cmu.edu/</link>
     <atom:link href="http://siam-sc.math.cmu.edu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 02 Oct 2018 11:17:34 -0400</pubDate>
-    <lastBuildDate>Tue, 02 Oct 2018 11:17:34 -0400</lastBuildDate>
+    <pubDate>Fri, 19 Oct 2018 18:05:15 -0400</pubDate>
+    <lastBuildDate>Fri, 19 Oct 2018 18:05:15 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Thursday, November 15th, 2018: Dislocation pattern formation in finite plasticity</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Time: Thursday, November 15th, 2018 at 5:30pm&lt;/li&gt;
+  &lt;li&gt;Place: WEH 8220&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;abstract&quot;&gt;Abstract&lt;/h4&gt;
+&lt;p&gt;Dislocations are crystal lattice defects that produce stresses in solids in the absence of loads. Their defectiveness can be characterized topologically, and their collective interaction and motion is responsible for the technologically important large permanent deformations and strength of ductile solids. Their collective behavior also produces intricate multiscale, evolving patterns (microstructure) that exist under stress, also giving rise to quasi-equilibrium, metastable patterns under no applied loads. It is one of the challenges of the theory of metal plasticity to predict such (stressed) patterns as well as the mechanical response of single and polycrystalline metals within a common theoretical framework.&lt;/p&gt;
+
+&lt;p&gt;A mathematical model and associated computational results for such phenomena will be described. The model is of unrestricted geometric and material nonlinearity that, when exercised on a sufficiently fine scale, can predict fields of arbitrary dislocation distributions in finite bodies of arbitrary anisotropy. Within this setting, the stress and elastic energy fields of a sequence of dislocation distributions leading up to a  grain-boundary wall will be considered and the result, involving an apparent phase-transition, compared with that of a $\Gamma$- convergence based prediction of Muller, Scardia, and Zeppieri. Moving on to larger scales of resolution adequate for meso/macro scale structural response, suitably adapting minimal, established macroscale phenomenology related to kinetics of plastic flow, predictions up to finite strains of size and rate-dependent mechanical behavior and dislocation patterning will also be demonstrated.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Pizzas will be served.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 19 Oct 2018 00:00:00 -0400</pubDate>
+        <link>http://siam-sc.math.cmu.edu/seminar/new/s18/2018/10/19/Acharya.html</link>
+        <guid isPermaLink="true">http://siam-sc.math.cmu.edu/seminar/new/s18/2018/10/19/Acharya.html</guid>
+        
+        
+        <category>seminar</category>
+        
+        <category>new</category>
+        
+        <category>S18</category>
+        
+      </item>
     
       <item>
         <title>Fall 2018: Analysis of hydrodynamic models</title>
@@ -555,29 +583,6 @@ developments based on graph theory.&lt;/p&gt;
         <category>seminar</category>
         
         <category>working</category>
-        
-      </item>
-    
-      <item>
-        <title>Thursday, October 20th, 2016: Learning To Count: a story with many dimensions</title>
-        <description>&lt;h4 id=&quot;abstract&quot;&gt;Abstract&lt;/h4&gt;
-&lt;p&gt;This talk is about the connection between the thermodynamics of quasicrystals and the combinatorial problem of multidimensional integer partitions.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Time: 05:30pm&lt;/li&gt;
-  &lt;li&gt;Place: WEH 8220&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 04 Oct 2016 00:00:00 -0400</pubDate>
-        <link>http://siam-sc.math.cmu.edu/seminar/past/f16/2016/10/04/Widom.html</link>
-        <guid isPermaLink="true">http://siam-sc.math.cmu.edu/seminar/past/f16/2016/10/04/Widom.html</guid>
-        
-        
-        <category>seminar</category>
-        
-        <category>past</category>
-        
-        <category>F16</category>
         
       </item>
     
