@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Thursday, November 15th, 2018: Dislocation pattern formation in finite plasticity"
+author: Prof. Amit Acharya, Department of Civil and Environmental Engineering, CMU
+categories: seminar new S18
+published: true
+---
+
+* Time: Thursday, November 15th, 2018 at 5:30pm
+* Place: WEH 8220
+
+#### Abstract
+Dislocations are crystal lattice defects that produce stresses in solids in the absence of loads. Their defectiveness can be characterized topologically, and their collective interaction and motion is responsible for the technologically important large permanent deformations and strength of ductile solids. Their collective behavior also produces intricate multiscale, evolving patterns (microstructure) that exist under stress, also giving rise to quasi-equilibrium, metastable patterns under no applied loads. It is one of the challenges of the theory of metal plasticity to predict such (stressed) patterns as well as the mechanical response of single and polycrystalline metals within a common theoretical framework.
+
+
+A mathematical model and associated computational results for such phenomena will be described. The model is of unrestricted geometric and material nonlinearity that, when exercised on a sufficiently fine scale, can predict fields of arbitrary dislocation distributions in finite bodies of arbitrary anisotropy. Within this setting, the stress and elastic energy fields of a sequence of dislocation distributions leading up to a  grain-boundary wall will be considered and the result, involving an apparent phase-transition, compared with that of a $\Gamma$- convergence based prediction of Muller, Scardia, and Zeppieri. Moving on to larger scales of resolution adequate for meso/macro scale structural response, suitably adapting minimal, established macroscale phenomenology related to kinetics of plastic flow, predictions up to finite strains of size and rate-dependent mechanical behavior and dislocation patterning will also be demonstrated.
+
+___
+Pizzas will be served.
