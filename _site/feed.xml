@@ -5,9 +5,42 @@
     <description></description>
     <link>http://siam-sc.math.cmu.edu/</link>
     <atom:link href="http://siam-sc.math.cmu.edu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Oct 2018 18:05:15 -0400</pubDate>
-    <lastBuildDate>Fri, 19 Oct 2018 18:05:15 -0400</lastBuildDate>
+    <pubDate>Fri, 02 Nov 2018 15:19:43 -0400</pubDate>
+    <lastBuildDate>Fri, 02 Nov 2018 15:19:43 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Thursday, November 8th, 2018: Variational Limits in Machine Learning</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Time: Thursday, November 8th, 2018 at 5:30pm&lt;/li&gt;
+  &lt;li&gt;Place: WEH 8220&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;abstract&quot;&gt;Abstract&lt;/h4&gt;
+
+&lt;p&gt;In this talk I will give an overview on some machine learning
+problems that can be posed as variational problems. I will look at
+methods such as k-means, spectral clustering, graph based regression,
+and neural networks. Often, the limit I will be interested in are as the
+number of data points goes to infinity. In the graph setting this
+requires a discrete-to-continuum topology which I will recall. The talk
+is aimed at a wide audience; I will neither assume knowledge of
+variational methods or machine learning.
+___
+Pizzas will be served.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 02 Nov 2018 00:00:00 -0400</pubDate>
+        <link>http://siam-sc.math.cmu.edu/seminar/new/s18/2018/11/02/Thorpe.html</link>
+        <guid isPermaLink="true">http://siam-sc.math.cmu.edu/seminar/new/s18/2018/11/02/Thorpe.html</guid>
+        
+        
+        <category>seminar</category>
+        
+        <category>new</category>
+        
+        <category>S18</category>
+        
+      </item>
     
       <item>
         <title>Thursday, November 15th, 2018: Dislocation pattern formation in finite plasticity</title>
@@ -481,108 +514,6 @@ developments based on graph theory.&lt;/p&gt;
         <category>past</category>
         
         <category>F17</category>
-        
-      </item>
-    
-      <item>
-        <title>Spring 2017: Mean Field Games</title>
-        <description>&lt;p&gt;Based on the result of the poll, we will be learning the theory of Mean Field Games.&lt;/p&gt;
-
-&lt;p&gt;Mean Field Games as a mathematical discipline were pioneered by Pierre-Louis Lions and model the actions of large populations (or particles) which interact somehow with their near neighbors. The population here is viewed as a continuum or density, allowing us to use PDE techniques in our analysis.&lt;/p&gt;
-
-&lt;p&gt;The standard Toy Model of Mean Field Games is the “wave” that you might see in the stands of a Pirates Game- You choose to sit or stand based on the people sitting next to you, and the result is a standing wave in the crowd.&lt;/p&gt;
-
-&lt;p&gt;For our text, there is a 60 page pdf available online by Guéant, Lasry, and Lions from 2009.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://mfglabs.com/publications/download/paris-princeton.pdf&quot;&gt;https://mfglabs.com/publications/download/paris-princeton.pdf&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;schedule-so-far&quot;&gt;Schedule (so far)&lt;/h3&gt;
-
-&lt;p&gt;Fridays, 8:30am-9:30am&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Name&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Chapter(s)&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Date&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Topic&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Adrian Hagerty&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;01/27&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Introduction&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Giovanni Gravina&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;02/03&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;When’s the meeting start?&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Ryan Xu&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;02/10&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Hamilton-Jacobi-Bellman equation&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Giovanni Gravina&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;02/17&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;When’s the meeting start? (cont.)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Sam Cohn&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;02/24&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;When’s the meeting start? (cont.)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Won Eui Hong&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;3&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;03/01&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Oil production&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Son Van&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;03/24&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Mexican wave&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Kevin Ou&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;03/31, 04/07&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Population distribution&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Yuanyuan Feng&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;6&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;04/28, 05/05&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Asset managers and rankings&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Sam Cohn&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;05/05&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Grand look back&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Participants registered so far (in no particular order): Kevin Ou, Son Van,  Sam Cohn, Ryan Xu, Won Eui Hong, Adrian Hagerty, Yuanyuan Feng, Slav Kirov, Giovanni Gravia&lt;/p&gt;
-</description>
-        <pubDate>Sat, 12 Nov 2016 00:00:00 -0500</pubDate>
-        <link>http://siam-sc.math.cmu.edu/seminar/working/2016/11/12/Spring17.html</link>
-        <guid isPermaLink="true">http://siam-sc.math.cmu.edu/seminar/working/2016/11/12/Spring17.html</guid>
-        
-        
-        <category>seminar</category>
-        
-        <category>working</category>
         
       </item>
     

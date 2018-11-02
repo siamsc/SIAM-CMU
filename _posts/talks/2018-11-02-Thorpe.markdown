@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Thursday, November 8th, 2018: Variational Limits in Machine Learning"
+author: Dr. Matthew Thorpe, Department of Applied Mathematics and Theoretical Physics, University of Cambridge
+categories: seminar new S18
+published: true
+---
+
+* Time: Thursday, November 8th, 2018 at 5:30pm
+* Place: WEH 8220
+
+#### Abstract
+
+In this talk I will give an overview on some machine learning
+problems that can be posed as variational problems. I will look at
+methods such as k-means, spectral clustering, graph based regression,
+and neural networks. Often, the limit I will be interested in are as the
+number of data points goes to infinity. In the graph setting this
+requires a discrete-to-continuum topology which I will recall. The talk
+is aimed at a wide audience; I will neither assume knowledge of
+variational methods or machine learning.
+___
+Pizzas will be served.
