@@ -2,7 +2,7 @@
 layout: post
 title:  "Thursday, November 8th, 2018: Variational Limits in Machine Learning"
 author: Dr. Matthew Thorpe, Department of Applied Mathematics and Theoretical Physics, University of Cambridge
-categories: seminar new S18
+categories: seminar past S18
 published: true
 ---
 
