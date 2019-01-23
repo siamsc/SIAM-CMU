@@ -5,13 +5,16 @@
     <description></description>
     <link>http://siam-sc.math.cmu.edu/</link>
     <atom:link href="http://siam-sc.math.cmu.edu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 22 Jan 2019 20:26:49 -0500</pubDate>
-    <lastBuildDate>Tue, 22 Jan 2019 20:26:49 -0500</lastBuildDate>
+    <pubDate>Wed, 23 Jan 2019 09:48:45 -0500</pubDate>
+    <lastBuildDate>Wed, 23 Jan 2019 09:48:45 -0500</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>Spring 2019: Concentration of measures</title>
         <description>&lt;p&gt;This semester we will be working on ``Concentration of measures: The Theoretical Foundation of Machine Learning”.&lt;/p&gt;
+
+&lt;p&gt;Text: ``&lt;a href=&quot;https://www.hse.ru/data/2016/11/24/1113029206/Concentration%20inequalities.pdf&quot;&gt;Concentration inequalities: a nonasymptotic theory of independence&lt;/a&gt;’’ by
+Boucheron, Lugosi and Massart.&lt;/p&gt;
 
 &lt;p&gt;Email for the working groups is: siam-wg@lists.andrew.cmu.edu&lt;/p&gt;
 
