@@ -5,8 +5,8 @@
     <description></description>
     <link>http://siam-sc.math.cmu.edu/</link>
     <atom:link href="http://siam-sc.math.cmu.edu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 23 Jan 2019 09:48:45 -0500</pubDate>
-    <lastBuildDate>Wed, 23 Jan 2019 09:48:45 -0500</lastBuildDate>
+    <pubDate>Fri, 25 Jan 2019 22:06:14 -0500</pubDate>
+    <lastBuildDate>Fri, 25 Jan 2019 22:06:14 -0500</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -27,18 +27,50 @@ Boucheron, Lugosi and Massart.&lt;/p&gt;
       &lt;th style=&quot;text-align: center&quot;&gt;Chapter(s)&lt;/th&gt;
       &lt;th style=&quot;text-align: center&quot;&gt;Date&lt;/th&gt;
       &lt;th style=&quot;text-align: center&quot;&gt;Topic&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;David Huckleberry&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;David Huck Gutman&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;01/24&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Introduction&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Adrian Gagerty&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;01/31&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Basic inequalities&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;David Itkin&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;02/07&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Bounding the variance&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Won Eui Hong&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;02/14&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Basic information inequalities&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Antoine Remond-Tiedrez&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;02/21&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Logarithmic Sobolev inequalities&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;p&gt;Participants: Ben Weber,  David Itkin, Won Eui Hong, Adrian Hagerty, David Huck
+Gutman, Son Van, Antoine Remond-Tiedrez.&lt;/p&gt;
 </description>
         <pubDate>Tue, 22 Jan 2019 00:00:00 -0500</pubDate>
         <link>http://siam-sc.math.cmu.edu/seminar/working/2019/01/22/Spring19.html</link>
