@@ -1,0 +1,68 @@
+\documentclass{amsproc}
+
+%------------------------------
+%     PREAMBLE
+%------------------------------
+
+% Packages
+\usepackage{amsmath, amsthm, hyperref} 
+\usepackage[usenames, dvipsnames]{xcolor}
+\usepackage{lipsum}
+
+% Hyperlink package parameters
+\hypersetup{
+	colorlinks=true,
+	linkcolor=RoyalBlue,
+	citecolor=Thistle
+}
+
+% amsthm - Declaring theorem commands
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+
+% Referencing including the format name (e.g. 'Section', 'Theorem') not just the numbering
+\newcommand{\fref}[2]{\hyperref[#2]{#1 \ref*{#2}}}
+
+%------------------------------
+%     DOCUMENT
+%------------------------------
+
+% Title
+\title{Concentration of measure}
+\author{SIAM Working Group - Spring 2019}
+
+\begin{document}
+
+% Title and table of contents
+\maketitle
+\tableofcontents
+
+%------------------------------
+%     Lecture 1
+%------------------------------
+
+\section{Introduction}
+\label{sec:introduction}
+\paragraph{\textbf{Abstract}}
+\lipsum[1]
+% YOUR STUFF HERE
+
+\begin{theorem}[Theorem name]
+\label{thm:reference-name}
+% YOUR STUFF HERE
+\end{theorem}
+
+%------------------------------
+%     APPENDIX
+%------------------------------
+
+\appendix
+\newpage
+\section*{Credits}
+\begin{tabular}{ll}
+	\fref{Lecture}{sec:introduction}
+	&David Gutman
+\end{tabular}
+
+\end{document}
