@@ -1,0 +1,5 @@
+\contentsline {section}{\tocsection {}{1}{Introduction}}{1}{section.1}
+\contentsline {paragraph}{\tocparagraph {}{}{\textbf {Abstract}}}{1}{section*.2}
+\contentsline {section}{\tocsection {}{2}{Basic inequalities}}{1}{section.2}
+\contentsline {paragraph}{\tocparagraph {}{}{\textbf {Abstract}}}{1}{section*.3}
+\contentsline {section}{\tocsection {Appendix}{}{Credits}}{3}{section*.4}
