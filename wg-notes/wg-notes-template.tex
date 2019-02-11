@@ -45,14 +45,42 @@
 
 \section{Introduction}
 \label{sec:introduction}
-\paragraph{\textbf{Abstract}}
-\lipsum[1]
-% YOUR STUFF HERE
+	\paragraph{\textbf{Abstract}}
+	In this lecture, we introduced the book's central theme, the study of random fluctuations of functions of independent random variables, along with three techniques that facilitate this study. The specific focus is on how these functions concentrate around measures of central tendency such as their mean and median. We discuss the three main methods below.
 
-\begin{theorem}[Theorem name]
-\label{thm:reference-name}
-% YOUR STUFF HERE
-\end{theorem}
+	\subsection*{Method 1: Isoperimetric Inequalities}
+
+	Suppose $(\mathcal{X},d)$ is a metric space, $X$ is a $\mathcal{X}$-valued RV with law $P$, and $Mf(X)$ is a median of $f(X)$. Then
+	\[
+		P\left\{|f(X)-Mf(X)|\geq t\right\}\leq 2\alpha(t)
+	\]
+	where
+	\[
+		\alpha(t):=\sup_{A\in \mathcal{B}(\mathcal{X})\atop P(A)\geq\frac{1}{2}}P\{d(X,A)\geq t\}
+	\]
+	and $\mathcal{B}(\mathcal{X})$ is the Borel $\sigma$-algebra on $\mathcal{X}$. Thus, bounding $\alpha(t)$ allows one to describe how $f(X)$ concentrates around its median.
+
+	\subsection*{Method 2: Entropy}
+
+	Let $I\subseteq\mathbb{R}$ be an interval, $X$ a $I$-valued RV, and $\Phi:I\to\mathbb{R}$ a convex function. then the $\Phi$-entropy of $X$ is
+	\[
+		H_\Phi(X):=E\Phi(X)-\Phi(EX).
+	\]
+	If $\Phi(x)=x\log(x)$ then we write $\text{Ent}$ in place of $H_\Phi$. Bounds on this entropy can translated to bounds on the concentration of functions of random variables around their mean. For example the Gaussian logarithmic Sobolev inequality states that if $X\sim N(0,I_{n\times n})$ and $f\in C^1(\mathbb{R}^n)$ then
+	\[
+		\text{Ent}\left[f^2(X)\right]\leq 2E\left[\|\nabla f(X)\|^2\right].
+	\]
+	In turn, this implies that
+	\[
+		P\left\{f(X)-Ef(X)\geq t\right\}\leq e^{-\frac{t^2}{2}}
+	\]
+	\subsection*{Method 3: Transportation}
+
+	One other way of deriving concentration bounds is by getting estimates of the \textit{transportation cost} between two probability measures $P$ and $Q$:
+	\[
+		\min_{\mathbf{P}\in\mathcal{P}(P,Q)}E_\mathbf{P}d(X,Y)
+	\]
+	where $d$ is some cost function, and $\mathcal{P}(P,Q)$ is the class of joint distributions of $X$ and $Y$ s.t. the marginal distribution of $X$ is $P$ and the marginal distribution of $Y$ is $Q$.
 
 %------------------------------
 %     Lecture 2
@@ -84,6 +112,9 @@
 \begin{tabular}{ll}
 	\fref{Lecture}{sec:introduction}
 	&David Gutman
+	\\
+	\fref{Lecture}{sec:basic_inequalites}
+	&Adrian Hagerty
 \end{tabular}
 
 \end{document}

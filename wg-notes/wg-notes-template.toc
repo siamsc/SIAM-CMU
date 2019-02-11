@@ -1,5 +1,8 @@
 \contentsline {section}{\tocsection {}{1}{Introduction}}{1}{section.1}
 \contentsline {paragraph}{\tocparagraph {}{}{\textbf {Abstract}}}{1}{section*.2}
-\contentsline {section}{\tocsection {}{2}{Basic inequalities}}{1}{section.2}
-\contentsline {paragraph}{\tocparagraph {}{}{\textbf {Abstract}}}{1}{section*.3}
-\contentsline {section}{\tocsection {Appendix}{}{Credits}}{3}{section*.4}
+\contentsline {subsection}{\tocsubsection {}{}{Method 1: Isoperimetric Inequalities}}{1}{section*.3}
+\contentsline {subsection}{\tocsubsection {}{}{Method 2: Entropy}}{1}{section*.4}
+\contentsline {subsection}{\tocsubsection {}{}{Method 3: Transportation}}{2}{section*.5}
+\contentsline {section}{\tocsection {}{2}{Basic inequalities}}{2}{section.2}
+\contentsline {paragraph}{\tocparagraph {}{}{\textbf {Abstract}}}{2}{section*.6}
+\contentsline {section}{\tocsection {Appendix}{}{Credits}}{3}{section*.7}
