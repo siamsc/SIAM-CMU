@@ -19,5 +19,6 @@ number of data points goes to infinity. In the graph setting this
 requires a discrete-to-continuum topology which I will recall. The talk
 is aimed at a wide audience; I will neither assume knowledge of
 variational methods or machine learning.
+
 ___
 Pizzas will be served.
