@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex wg-notes-template"] 1550149465 "wg-notes-template.aux" "wg-notes-template.bbl" "wg-notes-template" 1550149466
+["bibtex wg-notes-template"] 1550160624 "wg-notes-template.aux" "wg-notes-template.bbl" "wg-notes-template" 1550160626
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/alpha.bst" 1480098433 23907 a5f93555796fb564b924339521f10a7c ""
   "ref.bib" 1550149240 631 b9cde63abf29f3e892770f2747caca0a ""
-  "wg-notes-template.aux" 1550149465 2083 b622b5a02fe09b23e944cd0886662a96 ""
+  "wg-notes-template.aux" 1550160624 2105 010d01292f7ae6ee99fc77b7fa73675f ""
   "wg-notes-template.bcf" 0 -1 0 ""
   (generated)
-  "wg-notes-template.bbl"
   "wg-notes-template.blg"
-["pdflatex"] 1550149465 "wg-notes-template.tex" "wg-notes-template.pdf" "wg-notes-template" 1550149466
+  "wg-notes-template.bbl"
+["pdflatex"] 1550160624 "wg-notes-template.tex" "wg-notes-template.pdf" "wg-notes-template" 1550160626
   "/etc/texmf/web2c/texmf.cnf" 1538760400 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -85,14 +85,14 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1538760433 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1540469269 4135145 c40f4705c524e46c02da54cc68e726fa ""
-  "wg-notes-template.aux" 1550149465 2083 b622b5a02fe09b23e944cd0886662a96 ""
-  "wg-notes-template.bbl" 1550149465 338 ec1821ea97ab00c1f3bfaed77de44adf "bibtex wg-notes-template"
-  "wg-notes-template.out" 1550149465 195 456d86eac89ff702b3c1a20e438bb420 ""
-  "wg-notes-template.tex" 1550149465 3874 7ba075a0ad3dd3c3793868defc5b6875 ""
-  "wg-notes-template.toc" 1550149465 733 dc7fbc7be2c3c307f88f9c19e9b4afba ""
+  "wg-notes-template.aux" 1550160624 2105 010d01292f7ae6ee99fc77b7fa73675f ""
+  "wg-notes-template.bbl" 1550160624 338 ec1821ea97ab00c1f3bfaed77de44adf "bibtex wg-notes-template"
+  "wg-notes-template.out" 1550160624 195 456d86eac89ff702b3c1a20e438bb420 ""
+  "wg-notes-template.tex" 1550160611 5192 c7fb477ec25f9b61c16837760bc7e704 ""
+  "wg-notes-template.toc" 1550160624 733 dc7fbc7be2c3c307f88f9c19e9b4afba ""
   (generated)
   "wg-notes-template.toc"
   "wg-notes-template.aux"
-  "wg-notes-template.log"
   "wg-notes-template.pdf"
   "wg-notes-template.out"
+  "wg-notes-template.log"
