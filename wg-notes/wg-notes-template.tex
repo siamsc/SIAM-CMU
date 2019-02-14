@@ -90,17 +90,27 @@
 \section{Basic inequalities}
 \label{sec:basic_inequalites}
 \paragraph{\textbf{Abstract}}
-\lipsum[1]
-% YOUR STUFF HERE
+We used the Cram\'{e}r-Chernoff method to establish a family of inequalities which give quantitative estimates on concentration of measure in the case of certain regularity conditions. We use the machinery of the Cram\'{e}r-Chernoff method, the log of the moment generating function, to define families of random variables with rapidly decaying tails, sub-Gaussian and more generally sub-Gamma random variables.
 
-\begin{theorem}[Theorem name]
-\label{thm:reference-name}
-% YOUR STUFF HERE
+\begin{theorem}[Hoeffdinig's Inequality]
+\label{thm:hoeffding}
+Let $X_1, \dots, X_n$ be independent random variables such that $X_i$ takes its values in $[a_i, b_i]$ almost surely for all $i \leq n$. Let
+\[S = \sum_{i=1}^n (X_i - \mathbf{E}X_i).\]
+Then for every $t > 0$,
+\[\mathbf{P} \{S \geq t \} \leq  \exp \left( \frac{-2t^2}{\sum_{i=1}^n (b_i-a_i)^2} \right).\]
 \end{theorem}
 
-\begin{remark}[Trick name]
+\begin{remark}[Cram\'{e}r-Chernoff Method]
 \label{rmk:reference-name}
-% YOUR STUFF HERE
+For a random variable $X$, we use the fact that $\exp(\cdot)$ is an increasing function along with Markov's inequality to get the estimate
+\[\mathbf{P} \{X \geq t \} = \mathbf{P} \{e^{\lambda X} \geq e^{\lambda t} \} \leq e^{-\lambda t} \mathbf{E}\left( e^{\lambda X} \right)\]
+for every $\lambda > 0$.
+Picking the optimal $\lambda$ for a fixed $t$ yields
+\[\mathbf{P} \{X \geq t \} \leq \exp \left( -\psi^*(t) \right) \]
+where 
+\[\psi(\lambda) = \log \mathbf{E}\left( e^{\lambda X} \right)\]
+\[\psi^*(t) = \sup_{\lambda > 0} \left( t \lambda - \psi(\lambda) \right) \]
+which agrees with the Legendre transform of $\psi$ when $t > \mathbf{E}X$.
 \end{remark}
 
 %------------------------------
