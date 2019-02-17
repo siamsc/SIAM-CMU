@@ -5,5 +5,7 @@
 \contentsline {subsection}{\tocsubsection {}{}{Method 3: Transportation}}{2}{section*.5}
 \contentsline {section}{\tocsection {}{2}{Basic inequalities}}{2}{section.2}
 \contentsline {paragraph}{\tocparagraph {}{}{\textbf {Abstract}}}{2}{section*.6}
-\contentsline {section}{\tocsection {Appendix}{}{Credits}}{3}{section*.7}
-\contentsline {section}{\tocsection {Appendix}{}{References}}{3}{section*.8}
+\contentsline {section}{\tocsection {}{3}{Bounding the variance}}{3}{section.3}
+\contentsline {paragraph}{\tocparagraph {}{}{\textbf {Abstract}}}{3}{section*.7}
+\contentsline {section}{\tocsection {Appendix}{}{Credits}}{4}{section*.8}
+\contentsline {section}{\tocsection {Appendix}{}{References}}{4}{section*.9}

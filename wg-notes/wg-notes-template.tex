@@ -26,6 +26,16 @@
 % Referencing including the format name (e.g. 'Section', 'Theorem') not just the numbering
 \newcommand{\fref}[2]{\hyperref[#2]{#1 \ref*{#2}}}
 
+% Shortcuts
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Rn}{\mathbb{R}^n}
+\renewcommand{\P}{\mathbb{P}}
+\newcommand{\I}{\mathbb{I}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\F}{\mathcal{F}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\var}{\mathbb{VAR}}
+
 %------------------------------
 %     DOCUMENT
 %------------------------------
@@ -114,22 +124,34 @@ which agrees with the Legendre transform of $\psi$ when $t > \mathbf{E}X$.
 \end{remark}
 
 %------------------------------
-%     Lecture 2
+%     Lecture 3
 %------------------------------
 
 \section{Bounding the variance}
 \label{sec:bound_var}
 \paragraph{\textbf{Abstract}}
-% YOUR STUFF HERE
+We extensively utilize the \textit{Efron-Stein} inequality, which gives a bound on the variance of random variables in terms of the mean of their conditional variance. This simple bound has surprising consequences when applied to specific types of functions of random variables and allows us to almost effortlessly obtain sharp bounds on the variance. This is particularly the case for functions satisfying the \textit{bounded difference, self-bounding and configuration} properties. Other applications include proving Poincar\'{e} type inequalities for Gaussian RV's and deriving exponential tail bounds.
 
-\begin{theorem}[Name of important result]
-\label{thm:reference_name}
-% YOUR STUFF HERE
+\begin{theorem}[Efron-Stein Inequality]
+\label{thm:ESI}
+Let $X_1,\dots,X_n$ be IRVs taking values in $\mathcal{X}$ and let $f: \mathcal{X}^n \to \R$ be given. Set $Z = f(X_1,\dots,X_n)$ and assume $Z \in L^2$. Then we have that 
+$$\var(Z)\leq \sum\limits_{i=1}^n \E[(Z-\E^{(i)}[Z])^2] =: \sum\limits_{i=1}^n \E[\var^{(i)}[Z]]$$ where 
+$\E^{(i)}[Z] := \E[Z|X_1,\dots,X_{i-1},X_{i+1},\dots,X_n]$ and $\var^{i}[Z] := \E^{(i)}[(Z - \E^{(i)}[Z])^2].$ 
 \end{theorem}
 
-\begin{remark}[Name of `trick']
-\label{rmk:reference_name}
-% YOUR STUFF HERE
+\begin{remark}[Fubini Trick]
+\label{rmk:Fubini}
+If we write $Z = f(X_1,\dots,X_n)$ as before and 
+$\E_i[Z] := \E[Z|X_1,\dots,X_i]$ then by Fubini we have that 
+$$\E_i[Z] = \int_{\mathcal{X}^{n-i}} f(X_1,\dots,X_i,x_{i+1},\dots,x_{n})d\mu_{i+1}(x_{i+1})\dots d\mu_n(x_{n})$$ and similarly
+$$\E^{(i)}[Z] = \int_\mathcal{X} f(X_1,\dots,X_{i-1},x_i,X_{i+1},\dots,X_n)d\mu_i(x_i)$$ so that we have the identity
+$$\E_i[\E^{(i)}[Z]] = \E_{i-1}[Z], \hspace{0.3 cm} \forall i \geq 1$$
+where we use the convention that $\E_0[Z] = \E[Z]$. Now if we let $\Delta_i := \E_i[Z] - \E_{i-1}[Z]$ then by this Fubini observation it follows that 
+$$Z - \E[Z] = \sum\limits_{i=1}^n \Delta_i = \sum\limits_{i=1}^n \E^i[Z - E^{(i)}[Z]]$$ 
+Since for $j > i$ we have that
+$$\E[\Delta_i\Delta_j] = \E[\Delta_i\E_i[\Delta_j]] = 0$$ it follows that 
+$$\var(Z) = \E[(Z-\E[Z])^2] = \sum\limits_{i=1}^n \E[\Delta_i^2] + 2\sum\limits_{j>i}\E[\Delta_i\Delta_j] = \sum\limits_{i=1}^n \E[(\E_{i=1}[Z - \E^{i}[Z]])^2]$$
+$$\stackrel{\text{Jensen}}\leq\sum\limits_{i=1}^n \E[(Z - \E^{(i)}[Z])^2]$$ which gives us Efron-Stein.  
 \end{remark}
 
 %------------------------------
@@ -145,6 +167,9 @@ which agrees with the Legendre transform of $\psi$ when $t > \mathbf{E}X$.
 	\\
 	\fref{Lecture}{sec:basic_inequalites}
 	&Adrian Hagerty
+	\\
+	\fref{Lecture}{sec:bound_var}
+	& David Itkin
 \end{tabular}
 
 \bibliographystyle{alpha}
