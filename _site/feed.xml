@@ -5,8 +5,8 @@
     <description></description>
     <link>http://siam-sc.math.cmu.edu/</link>
     <atom:link href="http://siam-sc.math.cmu.edu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 21 Feb 2019 06:22:09 -0500</pubDate>
-    <lastBuildDate>Thu, 21 Feb 2019 06:22:09 -0500</lastBuildDate>
+    <pubDate>Thu, 21 Feb 2019 06:24:51 -0500</pubDate>
+    <lastBuildDate>Thu, 21 Feb 2019 06:24:51 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -39,30 +39,30 @@ Boucheron, Lugosi and Massart.&lt;/p&gt;
       &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Adrian Gagerty&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Adrian Hagerty&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;01/31&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;02/07&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;Basic inequalities&lt;/td&gt;
       &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;David Itkin&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;02/07&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Bounding the variance&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Won Eui Hong&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;02/14&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Basic information inequalities&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Bounding the variance&lt;/td&gt;
       &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Antoine Remond-Tiedrez&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;02/21&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Basic information inequalities&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Won Eui Hong&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;02/28&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;Logarithmic Sobolev inequalities&lt;/td&gt;
       &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
