@@ -5,15 +5,15 @@
     <description></description>
     <link>http://siam-sc.math.cmu.edu/</link>
     <atom:link href="http://siam-sc.math.cmu.edu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 21 Feb 2019 17:49:17 -0500</pubDate>
-    <lastBuildDate>Thu, 21 Feb 2019 17:49:17 -0500</lastBuildDate>
+    <pubDate>Thu, 21 Feb 2019 17:51:36 -0500</pubDate>
+    <lastBuildDate>Thu, 21 Feb 2019 17:51:36 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>Spring 2019: Concentration of measures</title>
         <description>&lt;p&gt;This semester we will be working on ``Concentration of measures: The Theoretical Foundation of Machine Learning”.&lt;/p&gt;
 
-&lt;p&gt;Text: ``&lt;a href=&quot;https://www.hse.ru/data/2016/11/24/1113029206/Concentration%20inequalities.pdf&quot;&gt;Concentration inequalities: a nonasymptotic theory of independence&lt;/a&gt;’’ by
+&lt;p&gt;Text: ‘‘&lt;a href=&quot;https://www.hse.ru/data/2016/11/24/1113029206/Concentration%20inequalities.pdf&quot;&gt;Concentration inequalities: a nonasymptotic theory of independence&lt;/a&gt;’’ by
 Boucheron, Lugosi and Massart.&lt;/p&gt;
 
 &lt;p&gt;Email for the working groups is: siam-wg@lists.andrew.cmu.edu&lt;/p&gt;
@@ -24,7 +24,7 @@ Boucheron, Lugosi and Massart.&lt;/p&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th style=&quot;text-align: left&quot;&gt;Name&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Date&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Date(s)&lt;/th&gt;
       &lt;th style=&quot;text-align: center&quot;&gt;Topic&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
