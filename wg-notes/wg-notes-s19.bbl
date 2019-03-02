@@ -1,0 +1,10 @@
+\begin{thebibliography}{BLM13}
+
+\bibitem[BLM13]{boucheron_lugosi_massart}
+St\'{e}phane Boucheron, G\'{a}bor Lugosi, and Pascal Massart.
+\newblock {\em Concentration inequalities}.
+\newblock Oxford University Press, Oxford, 2013.
+\newblock A nonasymptotic theory of independence, With a foreword by Michel
+  Ledoux.
+
+\end{thebibliography}
