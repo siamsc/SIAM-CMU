@@ -5,13 +5,13 @@
     <description></description>
     <link>http://siam-sc.math.cmu.edu/</link>
     <atom:link href="http://siam-sc.math.cmu.edu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 02 Mar 2019 09:57:17 -0800</pubDate>
-    <lastBuildDate>Sat, 02 Mar 2019 09:57:17 -0800</lastBuildDate>
+    <pubDate>Sat, 02 Mar 2019 10:00:37 -0800</pubDate>
+    <lastBuildDate>Sat, 02 Mar 2019 10:00:37 -0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>Spring 2019: Concentration of measures</title>
-        <description>&lt;p&gt;This semester we will be working on ``Concentration of measures: The Theoretical Foundation of Machine Learning”.&lt;/p&gt;
+        <description>&lt;p&gt;This semester we will be working on ‘‘Concentration of measures: The Theoretical Foundation of Machine Learning’’.&lt;/p&gt;
 
 &lt;p&gt;Text: ‘‘&lt;a href=&quot;https://www.hse.ru/data/2016/11/24/1113029206/Concentration%20inequalities.pdf&quot;&gt;Concentration inequalities: a nonasymptotic theory of independence&lt;/a&gt;’’ by
 Boucheron, Lugosi and Massart.&lt;/p&gt;
@@ -77,7 +77,7 @@ Boucheron, Lugosi and Massart.&lt;/p&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;Summaries of the key points from each talk can be found in these &lt;a href=&quot;https://siam-sc.math.cmu.edu/wg-notes/siam-wg-notes-s19.pdf&quot;&gt;notes&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Summaries of the key points from each talk can be found in these &lt;a href=&quot;siam-sc.math.cmu.edu/wg-notes/siam-wg-notes-s19.pdf&quot;&gt;notes&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Tue, 22 Jan 2019 00:00:00 -0800</pubDate>
         <link>http://siam-sc.math.cmu.edu/seminar/working/2019/01/22/Spring19.html</link>
