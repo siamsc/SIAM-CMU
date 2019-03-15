@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex wg-notes-s19"] 1551551187 "wg-notes-s19.aux" "wg-notes-s19.bbl" "wg-notes-s19" 1551551196
+["bibtex wg-notes-s19"] 1552657095 "wg-notes-s19.aux" "wg-notes-s19.bbl" "wg-notes-s19" 1552657100
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/alpha.bst" 1480098433 23907 a5f93555796fb564b924339521f10a7c ""
   "ref.bib" 1550149240 631 b9cde63abf29f3e892770f2747caca0a ""
-  "wg-notes-s19.aux" 1551551196 3879 6ced55ce55baa3336f34bae4adfb71a3 ""
+  "wg-notes-s19.aux" 1552657095 4669 b098bf2ad7bddfd6738396f08c99665a ""
   "wg-notes-s19.bcf" 0 -1 0 ""
   (generated)
   "wg-notes-s19.blg"
   "wg-notes-s19.bbl"
-["pdflatex"] 1551551196 "wg-notes-s19.tex" "wg-notes-s19.pdf" "wg-notes-s19" 1551551196
+["pdflatex"] 1552657095 "wg-notes-s19.tex" "wg-notes-s19.pdf" "wg-notes-s19" 1552657100
   "/etc/texmf/web2c/texmf.cnf" 1538760400 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -32,7 +32,6 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1480098701 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1480098701 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1480098701 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti7.tfm" 1480098701 1492 86331993fe614793f5e7e755835c31c5 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti8.tfm" 1480098701 1504 1747189e0441d1c18f3ea56fafc1c480 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1480098733 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1480098733 32080 340ef9bf63678554ee606688e7b5339d ""
@@ -97,14 +96,14 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1538760433 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1540469269 4135145 c40f4705c524e46c02da54cc68e726fa ""
-  "wg-notes-s19.aux" 1551551196 3879 6ced55ce55baa3336f34bae4adfb71a3 ""
-  "wg-notes-s19.bbl" 1551551188 338 ec1821ea97ab00c1f3bfaed77de44adf "bibtex wg-notes-s19"
-  "wg-notes-s19.out" 1551551196 499 264399fec8b7eec269f7471a3e6dfc06 ""
-  "wg-notes-s19.tex" 1551551196 11991 9d6320236b6b476914251ea1e7efb162 ""
-  "wg-notes-s19.toc" 1551551196 1405 e70dd2288757815d8e3b5f4ba4c5127d ""
+  "wg-notes-s19.aux" 1552657095 4669 b098bf2ad7bddfd6738396f08c99665a ""
+  "wg-notes-s19.bbl" 1552657095 338 ec1821ea97ab00c1f3bfaed77de44adf "bibtex wg-notes-s19"
+  "wg-notes-s19.out" 1552657095 556 27e8857f33e66106e1c0457eb12d5fb6 ""
+  "wg-notes-s19.tex" 1552657100 15319 1d1d941ffec659a5dbd5b3fa078fb89e ""
+  "wg-notes-s19.toc" 1552657095 1898 d017c80341d24b19a0877c4b1bfe4e25 ""
   (generated)
+  "wg-notes-s19.toc"
   "wg-notes-s19.log"
+  "wg-notes-s19.aux"
   "wg-notes-s19.out"
   "wg-notes-s19.pdf"
-  "wg-notes-s19.aux"
-  "wg-notes-s19.toc"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.25)  2 MAR 2019 10:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.25)  15 MAR 2019 09:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -393,35 +393,45 @@ Package amsmath Warning: Foreign command \atop;
 (amsmath)                 on input line 75.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Overfull \hbox (2.71521pt too wide) detected at line 166
+Overfull \hbox (30.30956pt too wide) in paragraph at lines 152--154
+ []\OT1/cmr/bx/n/10 Fubini Trick\OT1/cmr/m/n/10 .[] If we write $\OML/cmm/m/it/
+10 Z \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 X[];
+  [] ;  X[]\OT1/cmr/m/n/10 )$ as be-fore and $\U/msb/m/n/10 E[]\OT1/cmr/m/n/10 
+[\OML/cmm/m/it/10 Z\OT1/cmr/m/n/10 ] []= \U/msb/m/n/10 E\OT1/cmr/m/n/10 [\OML/c
+mm/m/it/10 Z\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 X[];  [] ;  X[]\OT1/cmr/m/n/10 ]
+$
+ []
+
+
+Overfull \hbox (2.71521pt too wide) detected at line 167
 []
  []
 
 [3] [4] [5] (./wg-notes-s19.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 266.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 300.
  [6pdfTeX warning (ext4): destination with the same identifier (name{cite.bouch
 eron_lugosi_massart}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.266 \end{document}
+l.300 \end{document}
                     ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 266.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 300.
  (./wg-notes-s19.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 266.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 266.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 300.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 300.
 Package rerunfilecheck Info: File `wg-notes-s19.out' has not changed.
-(rerunfilecheck)             Checksum: 264399FEC8B7EEC269F7471A3E6DFC06;499.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 266.
+(rerunfilecheck)             Checksum: 27E8857F33E66106E1C0457EB12D5FB6;556.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 300.
  ) 
 Here is how much of TeX's memory you used:
- 7486 strings out of 492982
- 106658 string characters out of 6134895
- 305845 words of memory out of 5000000
+ 7487 strings out of 492982
+ 106707 string characters out of 6134895
+ 304970 words of memory out of 5000000
  10778 multiletter control sequences out of 15000+600000
- 11968 words of font info for 45 fonts, out of 8000000 for 9000
+ 11270 words of font info for 43 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 34i,8n,35p,658b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,8n,35p,658b,351s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texli
@@ -440,10 +450,10 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/symbols/msbm5.pfb>
-Output written on wg-notes-s19.pdf (6 pages, 220304 bytes).
+Output written on wg-notes-s19.pdf (6 pages, 224876 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
- 165 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 207 PDF objects out of 1000 (max. 8388607)
+ 178 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

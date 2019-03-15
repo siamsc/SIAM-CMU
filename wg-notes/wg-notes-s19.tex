@@ -116,7 +116,7 @@
 	\[\P \{S \geq t \} \leq  \exp \left( \frac{-2t^2}{\sum_{i=1}^n (b_i-a_i)^2} \right).\]
 \end{theorem}
 
-\begin{remark}[Cram\'{e}r-Chernoff Method]
+\paragraph{\textbf{Cram\'{e}-Chernoff Method}}
 \label{rmk:cramer_chernoff}
 	For a random variable $X$, we use the fact that $\exp(\cdot)$ is an increasing function along with Markov's inequality to get the estimate
 	\[\P \{X \geq t \} = \P \{e^{\lambda X} \geq e^{\lambda t} \} \leq e^{-\lambda t} \E \left( e^{\lambda X} \right)\]
@@ -127,7 +127,6 @@
 	\[\psi(\lambda) \defeq \log \E \left( e^{\lambda X} \right) \text{ and}\]
 	\[\psi^*(t) \defeq \sup_{\lambda > 0} \left( t \lambda - \psi(\lambda) \right) \]
 	which agrees with the Legendre transform of $\psi$ when $t > \E X$.
-\end{remark}
 
 %------------------------------
 %     Lecture 3
@@ -143,10 +142,12 @@ We extensively utilize the \textit{Efron-Stein} inequality, which gives a bound 
 	Let $X_1,\,\dots,\,X_n$ be independent random variables taking values in $\mathcal{X}$ and let $f: \mathcal{X}^n \to \R$ be given.
 	Set $Z = f(X_1,\,\dots,\,X_n)$ and assume $Z \in L^2$. Then we have that 
 	$$\var(Z)\leq \sum\limits_{i=1}^n \E[(Z-\E^{(i)}[Z])^2] \eqdef \sum\limits_{i=1}^n \E[\var^{(i)}[Z]]$$ where 
-	$$\E^{(i)}[Z] \defeq \E[Z|X_1,\,\dots,\,X_{i-1},\,X_{i+1},\,\dots,\,X_n]$$ and $$\var^{i}[Z] \defeq \E^{(i)}[(Z - \E^{(i)}[Z])^2].$$ 
+	$$\E^{(i)}[Z] \defeq \E[Z|X_1,\,\dots,\,X_{i-1},\,X_{i+1},\,\dots,\,X_n]$$
+	i.e. $\E^{(i)}$ the expectation operator conditioned on $$X^{(i)} = (X_1,\,\dots,\,X_{i-1},\,X_{i+1},\,\dots,\,X_n),$$
+	and $$\var^{i}[Z] \defeq \E^{(i)}[(Z - \E^{(i)}[Z])^2].$$
 \end{theorem}
 
-\begin{remark}[Fubini Trick]
+\paragraph{\textbf{Fubini Trick}}
 \label{rmk:Fubini}
 	If we write $Z = f(X_1,\,\dots,\,X_n)$ as before and 
 	$\E_i[Z] \defeq \E[Z|X_1,\,\dots,\,X_i]$ then by Fubini we have that 
@@ -165,7 +166,6 @@ We extensively utilize the \textit{Efron-Stein} inequality, which gives a bound 
 		&\leq\sum\limits_{i=1}^n \E[(Z - \E^{(i)}[Z])^2]
 	\end{align*}
 	which gives us Efron-Stein.  
-\end{remark}
 
 %------------------------------
 %     Lecture 4
@@ -185,19 +185,17 @@ We extensively utilize the \textit{Efron-Stein} inequality, which gives a bound 
 	Let $\Phi(x) \defeq x\log x$ for $x>0$, let $X_1,\,\dots,\,X_n$ be independent random variables, and
 	let $Y = f(X_1,\,\dots,\,X_n)$ be a nonnegative measurable function of these variables such that $\Phi(Y) = Y\log Y$ is integrable.
 
-	For every $1\leq i \leq n$, denote by 
+	Denote by 
 	\begin{itemize}
-		\item	$\E^{(i)}$ the expectation operator conditioned on $$X^{(i)} = (X_1,\,\dots,\,X_{i-1},\,X_{i+1},\,\dots,\,X_n),$$
-			i.e. $\E^{(i)} [\,\cdot\,] \defeq \E[\,\cdot\, | X_1,\,\dots,\,X_{i-1},\,X_{i+1},\,\dots,\,X_n],$
-		\item	$\Ent (Y)$ the \emph{entropy} of $Y$ defined by $$\Ent (Y) \defeq \E\Phi (Y) - \Phi(\E Y),$$ and
-		\item	$\Ent^{(i)} (Y)$ the \emph{conditional entropy} of $Y$ given $X^{(i)}$
+		\item	$\Ent (Y)$ the \emph{entropy} of $Y$ defined by $$\Ent (Y) \defeq \E\Phi (Y) - \Phi(\E Y),$$ and,
+		\item	for every $1\leq i \leq n$, $\Ent^{(i)} (Y)$ the \emph{conditional entropy} of $Y$ given $X^{(i)}$
 			defined by $$\Ent^{(i)} \defeq \E^{(i)}\Phi (Y) - \Phi(\E^{(i)} Y).$$
 	\end{itemize}
 
 	Then $$\Ent (Y) \leq \E \sum_{i=1}^n \Ent^{(i)} (Y).$$
 \end{theorem}
 
-\begin{remark}[Entropy as a Kullback-Leibler divergence (discrete case)]
+\paragraph{\textbf{Entropy as a Kullback-Leibler divergence (discrete case)}}
 \label{rmk:entropy_as_KL_divergence}
 	For any discrete probability distributions $P$ and $Q$, if $P$ is absolutely continuous with respect to $Q$ then the Kullback-Leibler divergence from $P$ to $Q$ is defined as
 	$$D(P||Q) \defeq \sum_x p(x) \log \frac{p(x)}{q(x)}.$$
@@ -208,7 +206,6 @@ We extensively utilize the \textit{Efron-Stein} inequality, which gives a bound 
 	Then $$D(Q||P) = \Ent Z.$$
 	Indeed $$D(Q||P) = \sum_x f(x) p(x) \frac{f(x) p(x)}{p(x)} = \sum_x f(x) p(x) \log f(x) = \E Z Log Z = \Ent Z$$
 	since $\Phi(\E Z) = \Phi(1) = 0$.
-\end{remark}
 
 %------------------------------
 %     Lecture 5
@@ -217,17 +214,45 @@ We extensively utilize the \textit{Efron-Stein} inequality, which gives a bound 
 \section{Logarithmic Sobolev inequalities}
 \label{sec:log_Sob_ineq}
 \paragraph{\textbf{Abstract}}
-	% YOUR ABSTRACT HERE
+	The main goal of this chapter is to develop analogues to the Efron-Stein inequality.
+	In particular we will see the similarity between the Efron-Stein inequality and the logarithmic Sobolev inequality,
+	and between the Gaussian Poincar\'{e} inequality and the Gaussian logarithmic Sobolev inequality.
+	In each case, not only do these inequalities have structural similarities, but the latter ones are generalizations of the former ones (in some sense).
+	With this similarity in mind, we can generalize the concept of entropy to $\Phi$-entropies, which will be described in Chapter 14.
+	Although the powerful inequalities proved in this chapter only apply to a restricted class of random variables, they will be generalized in Chapter 6.
 
-\begin{theorem}[Name of important result]
-\label{thm:reference}
-	% YOUR IMPORTANT RESULT HERE
+\begin{theorem}[Logarithmic Sobolev inequality for the symmetric Bernoulli distribution]
+\label{thm:log_Sob_ineq_sym_Bernoulli}
+	Let $f:{\{-1,1\}}^n \rightarrow \R$ be an arbitrary real-valued function defined on the $n$-dimensional binary hypercube ${\{-1,1\}}^n$
+	and assume that $X$ is uniformly distributed over ${\{-1,1\}}^n$. Then 
+	$$ \Ent(f^2) \leq 2\,\mathcal{E}(f)$$
+	where $$\mathcal{E}(f) = \frac{1}{4}\,\E\left[\sum_{i=1}^n \left(f(X)-f(\overline{X}^{(i)})\right)^2\right]
+	= \frac{1}{2}\,\E\left[\sum_{i=1}^n \left(f(X)-f(\overline{X}^{(i)})\right)^2_+\right]$$
+	and where $$\overline{X}^{(i)} = (X_1,\,\dots,\,X_{i-1},\,-X_i,\,X_{i+1},\,\dots,\,X_n)$$ is obtained by flipping the $i$-th component of $X$ while leaving the others intact.
 \end{theorem}
 
-\begin{remark}[Name of the `trick']
-\label{rmk:reference}
-	% YOUR 'TRICK' HERE
-\end{remark}
+	The central limit theorem kicks in when we extend \fref{Theorem}{thm:log_Sob_ineq_sym_Bernoulli} to a random variable $X$ with a standard normal distribution: 
+	for any $\varepsilon_i$ which are uniformly distributed on $\{-1,1\}$ (i.e. Rademacher random variables)
+	$$\frac{1}{\sqrt{n}}\sum_{i=1}^n \epsilon_i\rightarrow X$$
+	as $n\to\infty$. We thus have:
+
+\begin{theorem}[Gaussian logarithmic Sobolev inequality]
+\label{thm:Gaussian_log_Sob_ineq}
+	Let $X=(X_1,\,\dots,\,X_n)$ be a vector of $n$ independent standard normal random variables and let $f:\Rn \to \Rn$ be a continuously differentiable function. Then
+	$$ \Ent(f^2) \leq 2\Vert \nabla f(X) \Vert^2.$$
+\end{theorem}
+
+\paragraph{\textbf{Herbst's argument}}
+\label{rmk:herbst}
+	Herbst's argument is the main tool which will lead us to concentration inequalities.
+	By putting $g_\lambda(x)\defeq e^{\lambda f(x)/2}$ we can derive a differential inequality satsfied by the entropy.
+	Solving this inequality leads to a concentration result. To be precise: for $Z = f(x)$,
+	$$ \Ent (g_\lambda^2(X)) = \Ent (e^{\lambda f(X)}) = \lambda\E[Ze^{\lambda Z}] - \E e^{\lambda Z}\log\E e^{\lambda Z}.$$
+	Let $F(\lambda) = \E e^{\lambda Z}$ so that we can express $\E[Ze^{
+	\lambda Z}] = F'(\lambda)$. Therefore
+	$$\Ent(g^2_\lambda (X)) = \lambda F'(\lambda) - F(\lambda)\log F(\lambda).$$
+	Tsirelson, Ibragimov and Sudakov used Herbst's argument to prove exponential tail inequalites for $L$-Lipschitz functions of independent Gaussian random variables.
+	It should be noted that the resulting concentration bounds are dimension-free. This feature allows us to extend the results from previous chapters.
 
 %------------------------------
 %     APPENDIX
@@ -235,11 +260,19 @@ We extensively utilize the \textit{Efron-Stein} inequality, which gives a bound 
 
 \appendix
 \newpage
+\section*{List of definitions}
+	\begin{tabular}{l}
+		\hyperref[thm:ESI]{Conditional expectation ($\E^{(i)}$)}\\
+		\hyperref[thm:ESI]{Conditional variance ($\var^{(i)}$)}\\
+		\hyperref[thm:sub_add_entropy]{Entropy ($\Ent$) and conditional entropy ($\Ent^{(i)}$)}
+	\end{tabular}
 \section*{List of results}
 	\begin{tabular}{l}
 		\hyperref[thm:hoeffding]{Hoeffding's inequality}\\
 		\hyperref[thm:ESI]{Efron-Stein inequality}\\
 		\hyperref[thm:sub_add_entropy]{Sub-additivity of entropy}\\
+		\hyperref[thm:log_Sob_ineq_sym_Bernoulli]{Logarithmic Sobolev inequality for the symmetric Bernoulli distribution}\\
+		\hyperref[thm:Gaussian_log_Sob_ineq]{Gaussian logarithmic Sobolev inequality}
 	\end{tabular}
 \section*{List of `tricks'}
 	\begin{tabular}{l}
@@ -248,7 +281,8 @@ We extensively utilize the \textit{Efron-Stein} inequality, which gives a bound 
 		\hyperref[sec:transport_method]{Transport method}\\
 		\hyperref[rmk:cramer_chernoff]{Cram\'{e}r-Chernoff method}\\
 		\hyperref[rmk:Fubini]{Fubini trick}\\
-		\hyperref[rmk:entropy_as_KL_divergence]{Entropy as a Kullback-Leibler divergence (discrete case)}
+		\hyperref[rmk:entropy_as_KL_divergence]{Entropy as a Kullback-Leibler divergence (discrete case)}\\
+		\hyperref[rmk:herbst]{Herbst's argument}
 	\end{tabular}
 \section*{Credits}
 	\begin{tabular}{ll}
