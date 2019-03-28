@@ -254,12 +254,86 @@ We extensively utilize the \textit{Efron-Stein} inequality, which gives a bound 
 	Tsirelson, Ibragimov and Sudakov used Herbst's argument to prove exponential tail inequalites for $L$-Lipschitz functions of independent Gaussian random variables.
 	It should be noted that the resulting concentration bounds are dimension-free. This feature allows us to extend the results from previous chapters.
 
+\section{ Entropy method}
+\label{sec:EntropyMethod}
+\paragraph{\textbf{Abstract}}
+In this chapter, we will explore a method of proof called Entropy method. The
+main idea is that one will try to use convexity of the entropy and the Herbst's
+argument in order to prove the desired inequalities. Important consequences of
+this method include the exponential Efron-Stein inequality and exponential
+inequality for self-bounded functions.
+
+Let $Z = f(X_1,...,X_n)$ where $X_i$'s are independent RVs (not necessarily
+IID). Denote $\varphi(\lambda) = \log \E e^{\lambda(Z - \E Z)}$ and one could
+see that 
+\begin{equation*}
+  \frac{ \Ent (e^{\lambda Z})}{ \E e^{\lambda Z}} = \lambda \varphi'(\lambda) -
+  \varphi(\lambda) \,.
+\end{equation*}
+The Herbst's argument lets you use an differential inequality to prove the
+following.
+
+If 
+\begin{equation*}
+  \frac{ \Ent (e^{\lambda Z})}{ \E e^{\lambda Z}} \leq C \,,
+\end{equation*}
+then 
+\begin{equation} \label{HerbstArg}
+  \log \E e^{\lambda(Z- \E Z)} \leq C \,.
+\end{equation}
+
+In this chapter, one theme that follows from the convexity of entropy is some
+sort of modified logarithmic Sobolev inequalities, which, more or less, has 
+the following form
+\begin{equation} \label{LogSob}
+  \lambda \E ( Ze^{\lambda Z}) - \E( e^{\lambda Z})\log \E(e^{\lambda Z}) \leq
+  \sum_{i=1}^n \E (e^{\lambda Z} \phi( - \lambda (Z-Z_i))) \,,
+\end{equation}
+where $\phi(x) = e^x - x -1$.
+
+The general philosophy is that, after translating the convexity into the Log
+Sobolev inequality \eqref{LogSob}, we use the result \eqref{HerbstArg} of
+Herbst's argument to prove all sorts of exponential inequalities. We only name
+two here since they seem to be important.
+
+\begin{theorem}[Exponential self-bounding
+  inequality]\label{thm:expSelfBounding}
+  Assume $Z$ satisfies the self-bounding property. Then for every $\lambda \in
+  \R$, 
+  \begin{equation*}
+    \log \E e^{\lambda(Z - \E Z)} \leq \phi(\lambda) \E Z \,.
+  \end{equation*}
+
+\end{theorem}
+
+\begin{theorem}[Exponential Efron-Stein] \label{thm:expEfronStein}
+  Denote $V^+ = \sum_{i=1}^n \E((Z - Z'_i)_+^2 | X_1,..., X_n)$, where $Z'_i =
+  f(X_1,..., X_i',..., X_n)$ for $X_i \sim X_i'$.
+  Let $\theta, \lambda >0$ so that $\theta\lambda <1$ and $\E e^{\lambda
+  V^+/\theta} <\infty$. Then 
+  \begin{equation*}
+    \log \E e^{\lambda(Z -\E Z)} \leq \frac{\lambda \theta}{1- \lambda
+      \theta}\log \E e^{\lambda V^+/\theta} \,.
+  \end{equation*}
+\end{theorem}  
+
+In conclusion, we have the following trick:
+
+\paragraph{ \bf Entropy method } \label{rmk:EntMet}
+
+Entropy method = Herbst's argument (typically something like \eqref{HerbstArg})
++ convexity of entropy (typically translate to some sort of modified log
+Sobolev inequality \eqref{LogSob}).
+
+
 %------------------------------
 %     APPENDIX
 %------------------------------
 
 \appendix
 \newpage
+
+
 \section*{List of definitions}
 	\begin{tabular}{l}
 		\hyperref[thm:ESI]{Conditional expectation ($\E^{(i)}$)}\\
@@ -273,6 +347,8 @@ We extensively utilize the \textit{Efron-Stein} inequality, which gives a bound 
 		\hyperref[thm:sub_add_entropy]{Sub-additivity of entropy}\\
 		\hyperref[thm:log_Sob_ineq_sym_Bernoulli]{Logarithmic Sobolev inequality for the symmetric Bernoulli distribution}\\
 		\hyperref[thm:Gaussian_log_Sob_ineq]{Gaussian logarithmic Sobolev inequality}
+		\hyperref[thm:expSelfBounding]{Exponential self-bounding inequality}
+		\hyperref[thm:expEfronStein]{Exponential Efron-Stein}
 	\end{tabular}
 \section*{List of `tricks'}
 	\begin{tabular}{l}
@@ -282,7 +358,8 @@ We extensively utilize the \textit{Efron-Stein} inequality, which gives a bound 
 		\hyperref[rmk:cramer_chernoff]{Cram\'{e}r-Chernoff method}\\
 		\hyperref[rmk:Fubini]{Fubini trick}\\
 		\hyperref[rmk:entropy_as_KL_divergence]{Entropy as a Kullback-Leibler divergence (discrete case)}\\
-		\hyperref[rmk:herbst]{Herbst's argument}
+		\hyperref[rmk:herbst]{Herbst's argument} \\
+		\hyperref[rmk:EntMet]{Entropy method}
 	\end{tabular}
 \section*{Credits}
 	\begin{tabular}{ll}
@@ -290,7 +367,8 @@ We extensively utilize the \textit{Efron-Stein} inequality, which gives a bound 
 		\fref{Lecture}{sec:basic_inequalites}& Adrian Hagerty\\
 		\fref{Lecture}{sec:bound_var}& David Itkin\\
 		\fref{Lecture}{sec:bas_inf_ineq}& Antoine Remond-Tiedrez\\
-		\fref{Lecture}{sec:log_Sob_ineq}& Won Eui Hong
+		\fref{Lecture}{sec:log_Sob_ineq}& Won Eui Hong \\
+        \fref{Lecture}{sec:EntropyMethod}& Son Van \\
 	\end{tabular}
 
 \bibliographystyle{alpha}
