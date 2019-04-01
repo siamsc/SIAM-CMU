@@ -1,4 +1,4 @@
-\documentclass{amsproc}
+\documentclass[reqno]{amsproc}
 
 %------------------------------
 %     PREAMBLE
@@ -243,7 +243,7 @@ We extensively utilize the \textit{Efron-Stein} inequality, which gives a bound 
 \end{theorem}
 
 \paragraph{\textbf{Herbst's argument}}
-\label{rmk:herbst}
+\label{rmk:herbst_1}
 	Herbst's argument is the main tool which will lead us to concentration inequalities.
 	By putting $g_\lambda(x)\defeq e^{\lambda f(x)/2}$ we can derive a differential inequality satsfied by the entropy.
 	Solving this inequality leads to a concentration result. To be precise: for $Z = f(x)$,
@@ -256,75 +256,92 @@ We extensively utilize the \textit{Efron-Stein} inequality, which gives a bound 
 
 \section{ Entropy method}
 \label{sec:EntropyMethod}
+
 \paragraph{\textbf{Abstract}}
-In this chapter, we will explore a method of proof called Entropy method. The
-main idea is that one will try to use convexity of the entropy and the Herbst's
-argument in order to prove the desired inequalities. Important consequences of
-this method include the exponential Efron-Stein inequality and exponential
-inequality for self-bounded functions.
+	In this chapter, we will explore a method of proof called the \emph{entropy method}.
+	The main idea is that one will try to use the convexity of the entropy and Herbst's argument in order to prove the desired inequalities.
+	Important results obtained via this method include an exponential inequality for self-bounded functions and the exponential Efron-Stein inequality.
 
-Let $Z = f(X_1,...,X_n)$ where $X_i$'s are independent RVs (not necessarily
-IID). Denote $\varphi(\lambda) = \log \E e^{\lambda(Z - \E Z)}$ and one could
-see that 
-\begin{equation*}
-  \frac{ \Ent (e^{\lambda Z})}{ \E e^{\lambda Z}} = \lambda \varphi'(\lambda) -
-  \varphi(\lambda) \,.
-\end{equation*}
-The Herbst's argument lets you use an differential inequality to prove the
-following.
+\paragraph{\textbf{Herbst's agument}}
+\label{rmk:herbst_2}
+	Let $Z = f(X_1,\dots,X_n)$ where the $X_i$'s are independent random variables (not necessarily identically distributed).
+	Denoting $\varphi(\lambda)~\defeq~\log \E e^{\lambda(Z - \E Z)}$ one can see that 
+	\begin{equation*}
+		\frac{ \Ent (e^{\lambda Z})}{ \E e^{\lambda Z}} = \lambda \varphi'(\lambda) -
+		\varphi(\lambda) \,.
+	\end{equation*}
+	Herbst's argument allows us to use an differential inequality to prove that
+	if 
+	\begin{equation*}
+		\frac{ \Ent (e^{\lambda Z})}{ \E e^{\lambda Z}} \leq C\lambda^2 \,,
+	\end{equation*}
+	then 
+	\begin{equation*}
+		\log \E e^{\lambda(Z- \E Z)} \leq C\lambda^2 \,.
+	\end{equation*}
+	Indeed, if
+	\begin{equation*}
+		\frac{ \Ent (e^{\lambda Z})}{ \E e^{\lambda Z}} \leq C\lambda^2 \,,
+	\end{equation*}
+	then
+	\begin{equation*}
+		\lambda \varphi' \left( \lambda \right) - \varphi \left( \lambda \right) = 
+		\frac{ \Ent (e^{\lambda Z})}{ \E e^{\lambda Z}} \leq C\lambda^2 \,
+	\end{equation*}
+	and hence
+	\begin{equation*}
+		\left( \frac{\varphi \left( \lambda \right)}{\lambda} \right)' = \frac{\varphi' \left( \lambda \right)}{\lambda} - \frac{ \varphi \left( \lambda \right)}{\lambda^2} \leq C^2 .
+	\end{equation*}
+	Integrating this inequality gives us that $\log \E e^{\lambda(Z - \E Z)} = \varphi \left( \lambda \right) \leq C\lambda^2$.
 
-If 
-\begin{equation*}
-  \frac{ \Ent (e^{\lambda Z})}{ \E e^{\lambda Z}} \leq C \,,
-\end{equation*}
-then 
-\begin{equation} \label{HerbstArg}
-  \log \E e^{\lambda(Z- \E Z)} \leq C \,.
-\end{equation}
+\paragraph{\textbf{The entropy method}}
+\label{rmk:entropy_method}
+	In this chapter, a central theme is that one can deduce from the convexity (or sub-additivity) of the entropy a modified logarithmic Sobolev inequality:
+	\begin{equation*}
+		\Ent \left( e^{\lambda Z} \right) = \lambda \E ( Ze^{\lambda Z}) - \E( e^{\lambda Z})\log \E(e^{\lambda Z}) \leq
+		\sum_{i=1}^n \E (e^{\lambda Z} \phi( - \lambda (Z-Z_i))) \,,
+	\end{equation*}
+	where $\phi (x) \defeq e^x - x - 1$ and $Z_i \defeq f \left( X^{(i)} \right) = f \left( X_1,\,\dots,\,X_{i-1},X_{i+1},\dots,\,X_n \right).$
+	Combining this with Herbst's argument allows us to prove all sorts of exponential inequalities.
 
-In this chapter, one theme that follows from the convexity of entropy is some
-sort of modified logarithmic Sobolev inequalities, which, more or less, has 
-the following form
-\begin{equation} \label{LogSob}
-  \lambda \E ( Ze^{\lambda Z}) - \E( e^{\lambda Z})\log \E(e^{\lambda Z}) \leq
-  \sum_{i=1}^n \E (e^{\lambda Z} \phi( - \lambda (Z-Z_i))) \,,
-\end{equation}
-where $\phi(x) = e^x - x -1$.
-
-The general philosophy is that, after translating the convexity into the Log
-Sobolev inequality \eqref{LogSob}, we use the result \eqref{HerbstArg} of
-Herbst's argument to prove all sorts of exponential inequalities. We only name
-two here since they seem to be important.
-
-\begin{theorem}[Exponential self-bounding
-  inequality]\label{thm:expSelfBounding}
-  Assume $Z$ satisfies the self-bounding property. Then for every $\lambda \in
-  \R$, 
-  \begin{equation*}
-    \log \E e^{\lambda(Z - \E Z)} \leq \phi(\lambda) \E Z \,.
-  \end{equation*}
-
+\begin{theorem}[Exponential self-bounding inequality]
+	\label{thm:exp_self_bound_ineq}
+	Let $X_1,\,\dots,\,X_n$ be independent random variables taking values in $ \mathcal{X} $ and let $f: \mathcal{X} \to \left[0,\infty\right)$ satisfy the self-bounding property,
+	i.e. there exist functions $f_i : \mathcal{X}^{n-1} \to \R$ such that, for all $x_1,\,\dots,\,x_n\in \mathcal{X} $ and all $i=1,\,\dots,\,n$,
+	\begin{equation*}
+		0 \leq f \left( x_1,\,\dots,\,x_n \right) - f_i \left( x_1,\,\dots,\,x_{i-1},\,x_{i+1},\,\dots,\,x_n \right) \leq 1
+	\end{equation*}
+	and
+	\begin{equation*}
+		\sum_{i=1}^n \left(
+			f \left( x_1,\,\dots,\,x_n \right) - f_i \left( x_1,\,\dots,\,x_{i-1},\,x_{i+1},\,\dots,\,x_n \right)
+		\right) \leq f \left( x_1,\,\dots,\,x_n \right).
+	\end{equation*}
+	Then, for any $\lambda\in\R$ and for $Z \defeq f \left( X_1,\,\dots,\,X_n \right)$,
+	\begin{equation*}
+		\log \E e^{\lambda \left( Z-\E Z \right)} \leq \phi(\lambda) \E Z\,.
+	\end{equation*}
+	where $\phi(x) \defeq e^x - x - 1$.
 \end{theorem}
-
-\begin{theorem}[Exponential Efron-Stein] \label{thm:expEfronStein}
-  Denote $V^+ = \sum_{i=1}^n \E((Z - Z'_i)_+^2 | X_1,..., X_n)$, where $Z'_i =
-  f(X_1,..., X_i',..., X_n)$ for $X_i \sim X_i'$.
-  Let $\theta, \lambda >0$ so that $\theta\lambda <1$ and $\E e^{\lambda
-  V^+/\theta} <\infty$. Then 
-  \begin{equation*}
-    \log \E e^{\lambda(Z -\E Z)} \leq \frac{\lambda \theta}{1- \lambda
-      \theta}\log \E e^{\lambda V^+/\theta} \,.
-  \end{equation*}
-\end{theorem}  
-
-In conclusion, we have the following trick:
-
-\paragraph{ \bf Entropy method } \label{rmk:EntMet}
-
-Entropy method = Herbst's argument (typically something like \eqref{HerbstArg})
-+ convexity of entropy (typically translate to some sort of modified log
-Sobolev inequality \eqref{LogSob}).
-
+	For example, $f = {||\cdot||}_{l^p}^p$ is a self-bounding function on ${ \left[ 0,1 \right] }^n$ for any $1\leq p < \infty$ since 
+		$f-f_i = {|x_i|}^p \in \left[ 0,1 \right]$
+	and
+		$\sum_i \left( f-f_i \right) = \sum_i {|x|}^i = {|x_i|}^p = f$.
+	Similarly, on any bounded set, appropriate multiples of ${||\cdot||}_{l^p}^p$ are self-bounding functions.
+\begin{theorem}[Exponential Efron-Stein inequality]
+	\label{thm:exp_efron_stein}
+	Let $X_1,\,\dots,\,X_n$ be independent random variables and let $Z = f \left( X_1,\,\dots,\,X_n \right)$.
+	For each $i=1,\,\dots,\,n$ let $X_i'$ be an independent copy of $X_i$ and let $X_i' \defeq f \left( X_1,\,\dots,\,X_i',\,\dots,\,X_n \right)$.
+	Define $\E' \defeq \E \left[ \,\cdot\, | X \right]$ (i.e. integrating out the variables $X_1',\,\dots,\,X_n'$) and
+	\begin{equation*}
+		V^+ \defeq \sum_{i=1}^n \E' \left[ {\left( Z - Z_i' \right)}_+^2 \right]
+	\end{equation*}
+	and let $\theta, \lambda > 0$ such that $\theta\lambda < 1$ and $\E e^{\lambda V^+ / \theta} < \infty$. Then
+	\begin{equation*}
+		\log\E e^{\lambda \left( Z - \E Z \right)} \leq \frac{\lambda\theta}{1-\lambda\theta} \log\E e^{\lambda V^+ / \theta}\,.
+	\end{equation*}
+\end{theorem}
+\newpage
 
 %------------------------------
 %     APPENDIX
@@ -347,19 +364,19 @@ Sobolev inequality \eqref{LogSob}).
 		\hyperref[thm:sub_add_entropy]{Sub-additivity of entropy}\\
 		\hyperref[thm:log_Sob_ineq_sym_Bernoulli]{Logarithmic Sobolev inequality for the symmetric Bernoulli distribution}\\
 		\hyperref[thm:Gaussian_log_Sob_ineq]{Gaussian logarithmic Sobolev inequality}
-		\hyperref[thm:expSelfBounding]{Exponential self-bounding inequality}
-		\hyperref[thm:expEfronStein]{Exponential Efron-Stein}
+		\hyperref[thm:sub_add_entropy]{Exponential self-bounding inequality}
+		\hyperref[thm:exp_efron_stein]{Exponential Efron-Stein inequality}
 	\end{tabular}
 \section*{List of `tricks'}
 	\begin{tabular}{l}
 		\hyperref[sec:method_of_isoperimetric_inequalities]{Method of isoperimetric inequalities}\\
+		Entropy method (\hyperref[sec:entropy_method]{part 1}, \hyperref[rmk:entropy_method]{part 2})\\
 		\hyperref[sec:entropy_method]{Entropy method}\\
 		\hyperref[sec:transport_method]{Transport method}\\
 		\hyperref[rmk:cramer_chernoff]{Cram\'{e}r-Chernoff method}\\
 		\hyperref[rmk:Fubini]{Fubini trick}\\
 		\hyperref[rmk:entropy_as_KL_divergence]{Entropy as a Kullback-Leibler divergence (discrete case)}\\
-		\hyperref[rmk:herbst]{Herbst's argument} \\
-		\hyperref[rmk:EntMet]{Entropy method}
+		Herbst's argument (\hyperref[rmk:herbst_1]{part 1}, \hyperref[rmk:herbst_2]{part 2}).
 	\end{tabular}
 \section*{Credits}
 	\begin{tabular}{ll}
@@ -368,7 +385,8 @@ Sobolev inequality \eqref{LogSob}).
 		\fref{Lecture}{sec:bound_var}& David Itkin\\
 		\fref{Lecture}{sec:bas_inf_ineq}& Antoine Remond-Tiedrez\\
 		\fref{Lecture}{sec:log_Sob_ineq}& Won Eui Hong \\
-        \fref{Lecture}{sec:EntropyMethod}& Son Van \\
+		\fref{Lecture}{sec:EntropyMethod}& Son Van \\
+		Editing& Antoine Remond-Tiedrez
 	\end{tabular}
 
 \bibliographystyle{alpha}
