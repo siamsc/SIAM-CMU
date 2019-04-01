@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.25)  1 APR 2019 14:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.25)  1 APR 2019 14:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -433,7 +433,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 396.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 396.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 396.
 Package rerunfilecheck Info: File `wg-notes-s19.out' has not changed.
-(rerunfilecheck)             Checksum: D46EBC9D1FB86A2823032871BFFEC9BF;613.
+(rerunfilecheck)             Checksum: A9EA7BC354CBE3BC22C132CA48A2B460;609.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 396.
  ) 
 Here is how much of TeX's memory you used:
@@ -463,7 +463,7 @@ dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/symbols/msbm5.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on wg-notes-s19.pdf (8 pages, 237784 bytes).
+Output written on wg-notes-s19.pdf (8 pages, 237777 bytes).
 PDF statistics:
  242 PDF objects out of 1000 (max. 8388607)
  209 compressed objects within 3 object streams
