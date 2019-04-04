@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.25)  1 APR 2019 14:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.25)  4 APR 2019 10:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -414,27 +414,22 @@ ed). De-not-ing $\OML/cmm/m/it/10 '\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^U\OT1/cm
 r/m/n/10 )  []=  [] \U/msb/m/n/10 E\OML/cmm/m/it/10 e[]$
  []
 
-[6] [7]
-Overfull \hbox (163.7095pt too wide) in paragraph at lines 361--370
-[][] 
- []
-
-(./wg-notes-s19.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 396.
+[6] [7] (./wg-notes-s19.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 397.
  [8pdfTeX warning (ext4): destination with the same identifier (name{cite.bouch
 eron_lugosi_massart}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.396 \end{document}
+l.397 \end{document}
                     ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 396.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 397.
  (./wg-notes-s19.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 396.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 396.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 397.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 397.
 Package rerunfilecheck Info: File `wg-notes-s19.out' has not changed.
 (rerunfilecheck)             Checksum: A9EA7BC354CBE3BC22C132CA48A2B460;609.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 396.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 397.
  ) 
 Here is how much of TeX's memory you used:
  7503 strings out of 492982
@@ -463,10 +458,10 @@ dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/symbols/msbm5.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on wg-notes-s19.pdf (8 pages, 237777 bytes).
+Output written on wg-notes-s19.pdf (8 pages, 237837 bytes).
 PDF statistics:
- 242 PDF objects out of 1000 (max. 8388607)
- 209 compressed objects within 3 object streams
+ 243 PDF objects out of 1000 (max. 8388607)
+ 210 compressed objects within 3 object streams
  44 named destinations out of 1000 (max. 500000)
  89 words of extra memory for PDF output out of 10000 (max. 10000000)
 
