@@ -19,8 +19,11 @@
 \contentsline {paragraph}{\tocparagraph {}{}{\textbf {Abstract}}}{6}{section*.14}
 \contentsline {paragraph}{\tocparagraph {}{}{\textbf {Herbst's agument}}}{6}{section*.15}
 \contentsline {paragraph}{\tocparagraph {}{}{\textbf {The entropy method}}}{6}{section*.16}
-\contentsline {section}{\tocsection {Appendix}{}{List of definitions}}{8}{section*.17}
-\contentsline {section}{\tocsection {Appendix}{}{List of results}}{8}{section*.18}
-\contentsline {section}{\tocsection {Appendix}{}{List of `tricks'}}{8}{section*.19}
-\contentsline {section}{\tocsection {Appendix}{}{Credits}}{8}{section*.20}
-\contentsline {section}{\tocsection {Appendix}{}{References}}{8}{section*.21}
+\contentsline {section}{\tocsection {}{7}{Concentration and Isoperimetry}}{7}{section.7}
+\contentsline {paragraph}{\tocparagraph {}{}{\textbf {Abstract}}}{7}{section*.17}
+\contentsline {paragraph}{\tocparagraph {}{}{ \bf Gaussian isoperimetric inequality}}{8}{section*.18}
+\contentsline {section}{\tocsection {Appendix}{}{List of definitions}}{9}{section*.19}
+\contentsline {section}{\tocsection {Appendix}{}{List of results}}{9}{section*.20}
+\contentsline {section}{\tocsection {Appendix}{}{List of `tricks'}}{9}{section*.21}
+\contentsline {section}{\tocsection {Appendix}{}{Credits}}{9}{section*.22}
+\contentsline {section}{\tocsection {Appendix}{}{References}}{9}{section*.23}

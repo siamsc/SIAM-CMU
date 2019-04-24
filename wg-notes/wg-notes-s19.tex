@@ -40,6 +40,7 @@
 \newcommand{\F}{\mathcal{F}} % Filtration
 \newcommand{\var}{\mathbb{VAR}} % Variance
 \DeclareMathOperator{\Ent}{Ent} % Entropy
+\newcommand{\X}{\mathcal{X}}
 
 %------------------------------
 %     DOCUMENT
@@ -254,6 +255,10 @@ We extensively utilize the \textit{Efron-Stein} inequality, which gives a bound 
 	Tsirelson, Ibragimov and Sudakov used Herbst's argument to prove exponential tail inequalites for $L$-Lipschitz functions of independent Gaussian random variables.
 	It should be noted that the resulting concentration bounds are dimension-free. This feature allows us to extend the results from previous chapters.
 
+%------------------------------
+%     Lectures 6 & 7
+%------------------------------
+
 \section{Entropy method}
 \label{sec:EntropyMethod}
 
@@ -341,7 +346,58 @@ We extensively utilize the \textit{Efron-Stein} inequality, which gives a bound 
 		\log\E e^{\lambda \left( Z - \E Z \right)} \leq \frac{\lambda\theta}{1-\lambda\theta} \log\E e^{\lambda V^+ / \theta}\,.
 	\end{equation*}
 \end{theorem}
-\newpage
+
+%------------------------------
+%     Lectures 8 & 9
+%------------------------------
+
+\section{Concentration and Isoperimetry}
+\label{sec:iso}
+\paragraph{\textbf{Abstract}}
+	In this chapter, we discuss the relationship between isoperimeter problems and concentration of measure.
+	In particular, we introduce the concentration function and L\'evy's inequalities.
+	We also discuss Talagrand's convex distance inequality.
+	The key to this proof involves the idea of a self bounding function, and that the squared convex distance is self bounding.
+
+\begin{theorem}[L\'evy's inequalities]
+\label{thm:levy}
+	Given a metric space $(\X, d)$ and a random variable $X$ on $\X$ distributed according to the measure $\mu$, we define the concentration function
+	\[\alpha(t) := \sup_{A \subset \X, \ \mu(A) \geq 1/2} \P \left\{ d(X,A) \geq t \right \} \]
+	For any 1-Lipschitz function $f: \X \to \R$, we have
+	\[\P \{f(X) \geq Mf(X) + t \} \leq \alpha(t) \textrm{ and } \P \{f(X) \leq Mf(X) - t \} \leq \alpha(t), \]
+	where $Mf(X)$ denotes any median of $f(X)$. Conversely, if $\beta : (0,\infty) \to [0,1]$ is a function such that for every 1-Lipschitz function $f : \X \to \R$ we have 
+	\[ \P \left\{f(X) \geq Mf(X) + t \right\} \leq \beta(t),\]
+	then $\beta(t) \leq \alpha(t)$.
+\end{theorem}
+
+\begin{theorem}[Talagrand's convex distance inequality]
+\label{thm:tal}
+	Consider independent random variables $X_1,\, \dots,\, X_n$ taking values in $\X$ and denote their vector as $X = (X_1, \dots, X_n) \in \X^n$.
+	For $\alpha \in [0, \infty)^n$ we define the weighted Hamming distance to a set $A \subset \X^n$ by
+	\[d_{\alpha}(x, A) = \inf_{y \in A} \sum_{i: x_i \not = y_i} |\alpha_i| \]
+	The convex distance to a set $A$ is given by
+	\[d_T(x, A) := \sup_{ \alpha \in [0, \infty)^n, \|\alpha\| = 1} d_{\alpha}(x,A)\]
+	where $\|\cdot\|$ denotes the Euclidean norm.
+	We have
+	\[\P(A)\,\P(d_T(X,A) \geq t) \leq e^{-t^2/4}.\]
+\end{theorem}
+
+\paragraph{ \bf Gaussian isoperimetric inequality} \label{rmk:iso}
+	L\'evy's inequalities provide us with the connection between concentration of measure type results and isoperimetric problems.
+	In particular, we can get isoperimetric results very cheaply by using our concentration theorems.
+	We will demonstrate a way to get a very sharp isoperimetric inequality for the Gaussian measure.
+
+	If $X$ is a standard Gaussian vector then for any 1-Lipschitz $f: \R^n \to \R$ and $t > 0$,
+	\begin{align*}
+	\P \{ f(X) \geq Mf(X) + t \} &= \P \{ f(X) \geq Ef(X) + (Mf(X) - Ef(X) + t) \} \\
+	& \leq \exp \bigg\{ \frac{1}{2}(Mf(X) - Ef(X) + t)^2\bigg\},
+	\end{align*}
+	where we have used a concentration result for $f(X)$. Now, for any random variable $Z$ we have
+	\[|MZ - EZ| \leq \sqrt{\var(Z)},\]
+	so in particular we have
+	\[ Mf(X) - Ef(X) \leq \sqrt{\var(f(X))} \leq 1\]
+	and so, by L\'evy's inequality,
+	\[ \alpha(t) \leq e^{-\frac{1}{2}(1+t)^2}. \]
 
 %------------------------------
 %     APPENDIX
@@ -366,7 +422,9 @@ We extensively utilize the \textit{Efron-Stein} inequality, which gives a bound 
 		\hyperref[thm:log_Sob_ineq_sym_Bernoulli]{Logarithmic Sobolev inequality for the symmetric Bernoulli distribution}\\
 		\hyperref[thm:Gaussian_log_Sob_ineq]{Gaussian logarithmic Sobolev inequality}\\
 		\hyperref[thm:sub_add_entropy]{Exponential self-bounding inequality}\\
-		\hyperref[thm:exp_efron_stein]{Exponential Efron-Stein inequality}
+		\hyperref[thm:exp_efron_stein]{Exponential Efron-Stein inequality}\\
+		\hyperref[thm:levy]{L\'evy's inequalities}\\
+		\hyperref[thm:tal]{Talagrand's convex distance inequality}
 	\end{tabular}
 \section*{List of `tricks'}
 	\begin{tabular}{l}
@@ -377,7 +435,8 @@ We extensively utilize the \textit{Efron-Stein} inequality, which gives a bound 
 		\hyperref[rmk:cramer_chernoff]{Cram\'{e}r-Chernoff method}\\
 		\hyperref[rmk:Fubini]{Fubini trick}\\
 		\hyperref[rmk:entropy_as_KL_divergence]{Entropy as a Kullback-Leibler divergence (discrete case)}\\
-		Herbst's argument (\hyperref[rmk:herbst_1]{part 1}, \hyperref[rmk:herbst_2]{part 2}).
+		Herbst's argument (\hyperref[rmk:herbst_1]{part 1}, \hyperref[rmk:herbst_2]{part 2})\\
+		\hyperref[rmk:iso]{Gaussian isoperimetric inequality}
 	\end{tabular}
 \section*{Credits}
 	\begin{tabular}{ll}
@@ -387,6 +446,7 @@ We extensively utilize the \textit{Efron-Stein} inequality, which gives a bound 
 		\fref{Lecture}{sec:bas_inf_ineq}& Antoine Remond-Tiedrez\\
 		\fref{Lecture}{sec:log_Sob_ineq}& Won Eui Hong \\
 		\fref{Lecture}{sec:EntropyMethod}& Son Van \\
+		\fref{Lecture}{sec:iso}& Adrian Hagerty \\
 		Editing& Antoine Remond-Tiedrez
 	\end{tabular}
 
