@@ -2,7 +2,7 @@
 layout: post
 title:  "Thursday, April 25, 2019: Graduate Mini Conference"
 author: Michael Anastos, Jing Zhang, Xiaofei Shi, Kerrek Stinson 
-categories: seminar new S18
+categories: seminar past S18
 published: true
 ---
 
