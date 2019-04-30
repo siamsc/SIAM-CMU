@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "May 2nd, 2019: Uniform, nonparametric, nonasymptotic confidence sequence"
+title:  "Thursday, May 2nd, 2019: Uniform, nonparametric, nonasymptotic confidence sequence"
 author: Aaditya Ramdas
 categories: seminar new S19
 published: true
@@ -11,13 +11,13 @@ published: true
 
 A confidence sequence is a sequence of confidence intervals that is uniformly valid over an unbounded time horizon. In this paper, we develop confidence sequences whose widths go to zero, with non-asymptotic coverage guarantees under nonparametric conditions. Our technique draws a connection between the classical Cramér-Chernoff method for exponential concentration bounds, the law of the iterated logarithm (LIL), and the sequential probability ratio test---our confidence sequences extend the first to time-uniform concentration bounds; provide tight, non-asymptotic characterizations of the second; and generalize the third to nonparametric settings, including sub-Gaussian and Bernstein conditions, self-normalized processes, and matrix martingales. We illustrate the generality of our proof techniques by deriving an empirical-Bernstein bound growing at a LIL rate, as well as a novel upper LIL for the maximum eigenvalue of a sum of random matrices. Finally, we apply our methods to covariance matrix estimation and to estimation of sample average treatment effect under the Neyman-Rubin potential outcomes model.
 
-[Link](https://arxiv.org/abs/1810.08240)
+[[Link](https://arxiv.org/abs/1810.08240)]
 
 ___
 
 * A preliminary talk will be given by Won Eui Hong at **4pm** in **WEH 7218** the same day. 
 
-[Link](https://arxiv.org/abs/1808.03204)
+[[Link](https://arxiv.org/abs/1808.03204)]
 
 ___
 Food from Bangal Kebab will be served.
