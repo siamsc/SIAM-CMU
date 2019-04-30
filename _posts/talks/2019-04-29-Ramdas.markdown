@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Thursday, May 2nd, 2019: Uniform, nonparametric, nonasymptotic confidence sequence"
-author: Aaditya Ramdas
+author: Prof. Aaditya Ramdas, Department of Statistics and Data Science, CMU
 categories: seminar new S19
 published: true
 ---
