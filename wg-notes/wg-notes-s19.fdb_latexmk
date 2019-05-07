@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex wg-notes-s19"] 1556117544 "wg-notes-s19.aux" "wg-notes-s19.bbl" "wg-notes-s19" 1556118195
+["bibtex wg-notes-s19"] 1557248713 "wg-notes-s19.aux" "wg-notes-s19.bbl" "wg-notes-s19" 1557248849
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/alpha.bst" 1480098433 23907 a5f93555796fb564b924339521f10a7c ""
   "ref.bib" 1550149240 631 b9cde63abf29f3e892770f2747caca0a ""
-  "wg-notes-s19.aux" 1556118195 6115 29cf0df7c2ffec8620fbcfbe28ef2e38 ""
+  "wg-notes-s19.aux" 1557248807 7011 e67dbbda0778344c515e5992f2a5969b ""
   "wg-notes-s19.bcf" 0 -1 0 ""
   (generated)
-  "wg-notes-s19.bbl"
   "wg-notes-s19.blg"
-["pdflatex"] 1556118194 "wg-notes-s19.tex" "wg-notes-s19.pdf" "wg-notes-s19" 1556118195
+  "wg-notes-s19.bbl"
+["pdflatex"] 1557248807 "wg-notes-s19.tex" "wg-notes-s19.pdf" "wg-notes-s19" 1557248849
   "/etc/texmf/web2c/texmf.cnf" 1538760400 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -98,14 +98,14 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1538760433 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1540469269 4135145 c40f4705c524e46c02da54cc68e726fa ""
-  "wg-notes-s19.aux" 1556118195 6115 29cf0df7c2ffec8620fbcfbe28ef2e38 ""
-  "wg-notes-s19.bbl" 1556117544 338 ec1821ea97ab00c1f3bfaed77de44adf "bibtex wg-notes-s19"
-  "wg-notes-s19.out" 1556118195 678 93fee3e4650aee6f071acabc6abf9aa8 ""
-  "wg-notes-s19.tex" 1556118194 23662 3e0edd5755f675ccb8e154b3adeecc0c ""
-  "wg-notes-s19.toc" 1556118195 2508 3170948a0c88942b4b0291a7b97433ca ""
+  "wg-notes-s19.aux" 1557248807 7011 e67dbbda0778344c515e5992f2a5969b ""
+  "wg-notes-s19.bbl" 1557248713 338 ec1821ea97ab00c1f3bfaed77de44adf "bibtex wg-notes-s19"
+  "wg-notes-s19.out" 1557248807 742 a98372f6f5831a04dfb5c2e59c7a7955 ""
+  "wg-notes-s19.tex" 1557248849 28837 605d57314a6fd8b4af8f121b842480b7 ""
+  "wg-notes-s19.toc" 1557248807 2773 9bb694148f37dbfad2961b1de235b166 ""
   (generated)
+  "wg-notes-s19.aux"
   "wg-notes-s19.out"
   "wg-notes-s19.log"
   "wg-notes-s19.pdf"
   "wg-notes-s19.toc"
-  "wg-notes-s19.aux"

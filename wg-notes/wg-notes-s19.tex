@@ -376,7 +376,10 @@ We extensively utilize the \textit{Efron-Stein} inequality, which gives a bound 
 	For $\alpha \in [0, \infty)^n$ we define the weighted Hamming distance to a set $A \subset \X^n$ by
 	\[d_{\alpha}(x, A) = \inf_{y \in A} \sum_{i: x_i \not = y_i} |\alpha_i| \]
 	The convex distance to a set $A$ is given by
-	\[d_T(x, A) := \sup_{ \alpha \in [0, \infty)^n, \|\alpha\| = 1} d_{\alpha}(x,A)\]
+	\begin{equation}
+	\label{eq:conv_dist}
+		d_T(x, A) := \sup_{ \alpha \in [0, \infty)^n, \|\alpha\| = 1} d_{\alpha}(x,A)
+	\end{equation}
 	where $\|\cdot\|$ denotes the Euclidean norm.
 	We have
 	\[\P(A)\,\P(d_T(X,A) \geq t) \leq e^{-t^2/4}.\]
@@ -400,6 +403,77 @@ We extensively utilize the \textit{Efron-Stein} inequality, which gives a bound 
 	\[ \alpha(t) \leq e^{-\frac{1}{2}(1+t)^2}. \]
 
 %------------------------------
+%     Lectures 10 & 11
+%------------------------------
+
+\section{The Transportation Method}
+\label{sec:transp}
+	\paragraph{\textbf{Abstract}}
+	This chapter takes on a different approach than previous chapters, by using tools from the theory of \textit{optimal transport} to derive Sub-Gaussian concentration bounds.
+	We will derive similar bounds to those we have seen using the Entropy method; most notably proving versions of the Bounded Differences and Talagrand convex distance results seen before.
+	Though most of the examples that will be discussed give rise to similar bounds proved using other methods,
+	this method is not just an alternative -- in many cases it leads to concentration of measure results for which other methods to derive them are not known.
+
+	\begin{theorem}[Marton's Transportation Inequality]
+	\label{thm:marton}
+		Let $P,Q$ be measures on $\mathcal{X}^n$ with $Q << P$ and write $\mathcal{P}(P,Q)$ for the set of all joint probability measures of $P$ and $Q$
+		(i.e. measures on $\mathcal{X}^n \times \mathcal{X}^n$ that preserve the marginals $P$ and $Q$).
+		Letting $X = (X_1,\dots,X_n) \sim P$ and $ Y = (Y_1,\dots,Y_n) \sim Q$ we have that
+		$$ \min\limits_{\P \in \mathcal{P}(P,Q)} \sum\limits_{i=1}^n \P^2(X_i \ne Y_i) \leq \frac{1} {2}D(Q||P).$$
+	\end{theorem}
+
+	\begin{theorem}[Marton's Conditional Transportation Inequality]
+	\label{thm:marton_cond}
+	Adopt the notation of \fref{Theorem}{thm:marton}. Then 
+		$$\min\limits_{\P \in \mathcal{P}(P,Q)} \E_{\P}\left[ \sum\limits_{i=1}^n \left(\P^2(X_i \ne Y_i|X_i) + \P^2(X_i \ne Y_i|Y_i)\right)\right] \leq 2D(Q||P).$$
+	\end{theorem}
+
+	\paragraph{\textbf{Transportation Lemma}}
+	The glue connecting optimal transport (including \fref{Theorem}{thm:marton} and \fref{Theorem}{thm:marton_cond} above) to concentration inequalities is the following transportation lemma:
+
+	\begin{lemma}[Transportation Lemma]
+	\label{lem:transp}
+		As before write $Z = f(X)$ for $f:\mathcal{X}^n \to \R$ and $\psi_Z$ for the cumulant generating function, i.e. $\psi_Z (\lambda) = \log \E [ e^\lambda Z]$
+		is the log moment generating function.
+		If $Z$ has mean zero then we say that $Z$ is \emph{sub-Gaussian} with \emph{variance factor} $v$ if $$\psi_Z(\lambda) \leq \frac{\lambda v^2}{2}$$ for every $\lambda\in\R$,
+		in which cas we write $Z\sim SG(v)$.
+		We have that $Z \sim SG(v)$ if and only if for every probability measure $Q << P$ such that $D(Q||P) < \infty$ we have that 
+		\begin{equation}
+		\label{eqn:transpo}
+			\E_Q[f] - \E_P[f] \leq \sqrt{2vD(Q||P)}.
+		\end{equation}
+	\end{lemma}
+
+	This allows us to prove sub-Gaussian concentration inequalities by proving the transportation inequality \eqref{eqn:transpo}.
+	We will typically assume that $f$ satisfies the \textit{1-sided Lipschitz condition}
+	$f(y) - f(x) \leq \sum\limits_{i=1}^n c_i(x)d(x_i,y_i)$ where $c_i$ are some functions and $d$ is a pseudometric. From this it follows that 
+	\begin{align*}
+		\E_Q[f] - \E_P[f] &\leq \left(\sum\limits_{i=1}^n \E[c_i(X)]^2\right)^{1/2}
+		\left(\inf\limits_{\P \in \mathcal{P}(P,Q)} \E_{\P}\left[\left(\sum\limits_{i=1}^n \E_{\P}[d(X_i,Y_i)^2|X_i]\right)\right]\right)^{1/2}\\
+		&\defeq \sqrt{v}\cdot \sqrt{\Theta(P,Q)}.
+	\end{align*}
+	Thus it suffices to prove
+	$$\Theta(P,Q) \leq 2D(Q||P)$$
+	This is normally done in two steps (and is how \fref{Theorem}{thm:marton} and \fref{Theorem}{thm:marton_cond} are proved):
+	\begin{enumerate}
+		\item	First one tries to \textit{characterize} $\Theta(P,Q)$. That is to find its value in terms of some metric of $P$ and $Q$. 
+			One may have to do this directly or could refer to the optimal transport literature for known results.
+		\item	Bounding the quantity found in step 1.
+	\end{enumerate}
+	Taking $d(X_i,Y_i) = \P(X_i \ne Y_i)$ and $c_i(X) \equiv c_i$ together with \fref{Theorem}{thm:marton} yields the bounded differences inequality,
+	whereas that same distance and setting $c_i(x)$ to be the supremum over $\alpha$ in \eqref{eq:conv_dist}
+	together with \fref{Theorem}{thm:marton_cond} yields Talagrand's convex distance inequality. \\
+
+	For a new example take the Euclidian distance $d(x,y) = |x-y|$ and assume $f: \R^n \to \R$ is L-Lipschitz;
+	this yields that $Z = f(X) \sim SG(L)$ if $X$ is standard Gaussian by the following transportation theorem:
+	\begin{theorem}[Talagrand's Gaussian Transportation Inequality]
+		\label{thm:transp_gaussian}
+		Let $P$ be the standard Gaussian measure on $\R^n$ and $Q$ a probability measure with $Q << P$. Then 
+		$$\min\limits_{\P \in \mathcal{P}(P,Q)} \sum\limits_{i=1}^n \E_{\P}[(X_i-Y_i)^2] \leq 2 D(Q||P)$$
+	\end{theorem}
+	which is proved in the standard two-step fashion explained above.
+
+%------------------------------
 %     APPENDIX
 %------------------------------
 
@@ -412,7 +486,9 @@ We extensively utilize the \textit{Efron-Stein} inequality, which gives a bound 
 		\hyperref[thm:ESI]{Conditional expectation ($\E^{(i)}$)}\\
 		\hyperref[thm:ESI]{Conditional variance ($\var^{(i)}$)}\\
 		\hyperref[thm:sub_add_entropy]{Entropy ($\Ent$) and conditional entropy ($\Ent^{(i)}$)}\\
-		\hyperref[thm:exp_self_bound_ineq]{Self-bounding function}
+		\hyperref[thm:exp_self_bound_ineq]{Self-bounding function}\\
+		\hyperref[thm:tal]{Talagrand's convex distance}\\
+		\hyperref[lem:transp]{Sub-Gaussian random variable}
 	\end{tabular}
 \section*{List of results}
 	\begin{tabular}{l}
@@ -424,7 +500,10 @@ We extensively utilize the \textit{Efron-Stein} inequality, which gives a bound 
 		\hyperref[thm:sub_add_entropy]{Exponential self-bounding inequality}\\
 		\hyperref[thm:exp_efron_stein]{Exponential Efron-Stein inequality}\\
 		\hyperref[thm:levy]{L\'evy's inequalities}\\
-		\hyperref[thm:tal]{Talagrand's convex distance inequality}
+		\hyperref[thm:tal]{Talagrand's convex distance inequality}\\
+		\hyperref[thm:marton]{Marton's transportation inequality}\\
+		\hyperref[thm:marton_cond]{Marton's conditional transportation inequality}\\
+		\hyperref[thm:transp_gaussian]{Talagrand's Gaussian transportation inequality}
 	\end{tabular}
 \section*{List of `tricks'}
 	\begin{tabular}{l}
@@ -436,7 +515,8 @@ We extensively utilize the \textit{Efron-Stein} inequality, which gives a bound 
 		\hyperref[rmk:Fubini]{Fubini trick}\\
 		\hyperref[rmk:entropy_as_KL_divergence]{Entropy as a Kullback-Leibler divergence (discrete case)}\\
 		Herbst's argument (\hyperref[rmk:herbst_1]{part 1}, \hyperref[rmk:herbst_2]{part 2})\\
-		\hyperref[rmk:iso]{Gaussian isoperimetric inequality}
+		\hyperref[rmk:iso]{Gaussian isoperimetric inequality}\\
+		\hyperref[lem:transp]{Transportation lemma}
 	\end{tabular}
 \section*{Credits}
 	\begin{tabular}{ll}
@@ -447,6 +527,7 @@ We extensively utilize the \textit{Efron-Stein} inequality, which gives a bound 
 		\fref{Lecture}{sec:log_Sob_ineq}& Won Eui Hong \\
 		\fref{Lecture}{sec:EntropyMethod}& Son Van \\
 		\fref{Lecture}{sec:iso}& Adrian Hagerty \\
+		\fref{Lecture}{sec:transp} & David Itkin\\
 		Editing& Antoine Remond-Tiedrez
 	\end{tabular}
 

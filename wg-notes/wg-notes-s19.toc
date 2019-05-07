@@ -22,8 +22,11 @@
 \contentsline {section}{\tocsection {}{7}{Concentration and Isoperimetry}}{7}{section.7}
 \contentsline {paragraph}{\tocparagraph {}{}{\textbf {Abstract}}}{7}{section*.17}
 \contentsline {paragraph}{\tocparagraph {}{}{ \bf Gaussian isoperimetric inequality}}{8}{section*.18}
-\contentsline {section}{\tocsection {Appendix}{}{List of definitions}}{9}{section*.19}
-\contentsline {section}{\tocsection {Appendix}{}{List of results}}{9}{section*.20}
-\contentsline {section}{\tocsection {Appendix}{}{List of `tricks'}}{9}{section*.21}
-\contentsline {section}{\tocsection {Appendix}{}{Credits}}{9}{section*.22}
-\contentsline {section}{\tocsection {Appendix}{}{References}}{9}{section*.23}
+\contentsline {section}{\tocsection {}{8}{The Transportation Method}}{8}{section.8}
+\contentsline {paragraph}{\tocparagraph {}{}{\textbf {Abstract}}}{8}{section*.19}
+\contentsline {paragraph}{\tocparagraph {}{}{\textbf {Transportation Lemma}}}{8}{section*.20}
+\contentsline {section}{\tocsection {Appendix}{}{List of definitions}}{10}{section*.21}
+\contentsline {section}{\tocsection {Appendix}{}{List of results}}{10}{section*.22}
+\contentsline {section}{\tocsection {Appendix}{}{List of `tricks'}}{10}{section*.23}
+\contentsline {section}{\tocsection {Appendix}{}{Credits}}{10}{section*.24}
+\contentsline {section}{\tocsection {Appendix}{}{References}}{11}{section*.25}
