@@ -5,12 +5,55 @@
     <description></description>
     <link>http://siam-sc.math.cmu.edu/</link>
     <atom:link href="http://siam-sc.math.cmu.edu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 29 Apr 2019 20:49:52 -0400</pubDate>
-    <lastBuildDate>Mon, 29 Apr 2019 20:49:52 -0400</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
+    <pubDate>Fri, 20 Sep 2019 12:54:49 -0400</pubDate>
+    <lastBuildDate>Fri, 20 Sep 2019 12:54:49 -0400</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
     
       <item>
-        <title>May 2nd, 2019: Uniform, nonparametric, nonasymptotic confidence sequence</title>
+        <title>Fall 2019: Koopman Spectral Analysis</title>
+        <description>&lt;p&gt;This semester we will be working on ‘‘Koopman Spectral Analysis’’.&lt;/p&gt;
+
+&lt;p&gt;Text: ‘‘&lt;a href=&quot;https://www.dmdbook.com&quot;&gt;Dynamic Mode Decomposition: Data-Driven Modeling of Complex Systems&lt;/a&gt;’’ by Kutz, Brunton, Brunton, and Proctor.&lt;/p&gt;
+
+&lt;p&gt;Email for the working groups is: siam-wg@lists.andrew.cmu.edu&lt;/p&gt;
+
+&lt;h2 id=&quot;schedule-so-far&quot;&gt;Schedule (so far)&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Name&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Date(s)&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Topic&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Kayla Bollinger&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;09/05, 09/12&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Introduction&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Won Eui Hong&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;09/19&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Koopman Spectral Analysis&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Thu, 29 Aug 2019 00:00:00 -0400</pubDate>
+        <link>http://siam-sc.math.cmu.edu/seminar/working/2019/08/29/Fall19.html</link>
+        <guid isPermaLink="true">http://siam-sc.math.cmu.edu/seminar/working/2019/08/29/Fall19.html</guid>
+        
+        
+        <category>seminar</category>
+        
+        <category>working</category>
+        
+      </item>
+    
+      <item>
+        <title>Thursday, May 2nd, 2019: Uniform, nonparametric, nonasymptotic confidence sequence</title>
         <description>&lt;ul&gt;
   &lt;li&gt;Time: Thursday, May 2nd, 2019 at 5:30pm&lt;/li&gt;
   &lt;li&gt;Place: WEH 8220&lt;/li&gt;
@@ -18,7 +61,7 @@
 
 &lt;p&gt;A confidence sequence is a sequence of confidence intervals that is uniformly valid over an unbounded time horizon. In this paper, we develop confidence sequences whose widths go to zero, with non-asymptotic coverage guarantees under nonparametric conditions. Our technique draws a connection between the classical Cramér-Chernoff method for exponential concentration bounds, the law of the iterated logarithm (LIL), and the sequential probability ratio test—our confidence sequences extend the first to time-uniform concentration bounds; provide tight, non-asymptotic characterizations of the second; and generalize the third to nonparametric settings, including sub-Gaussian and Bernstein conditions, self-normalized processes, and matrix martingales. We illustrate the generality of our proof techniques by deriving an empirical-Bernstein bound growing at a LIL rate, as well as a novel upper LIL for the maximum eigenvalue of a sum of random matrices. Finally, we apply our methods to covariance matrix estimation and to estimation of sample average treatment effect under the Neyman-Rubin potential outcomes model.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.08240&quot;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&quot;https://arxiv.org/abs/1810.08240&quot;&gt;Link&lt;/a&gt;]&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -26,19 +69,19 @@
   &lt;li&gt;A preliminary talk will be given by Won Eui Hong at &lt;strong&gt;4pm&lt;/strong&gt; in &lt;strong&gt;WEH 7218&lt;/strong&gt; the same day.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/1808.03204&quot;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&quot;https://arxiv.org/abs/1808.03204&quot;&gt;Link&lt;/a&gt;]&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;Food from Bangal Kebab will be served.&lt;/p&gt;
 </description>
         <pubDate>Mon, 29 Apr 2019 00:00:00 -0400</pubDate>
-        <link>http://siam-sc.math.cmu.edu/seminar/new/s19/2019/04/29/Ramdas.html</link>
-        <guid isPermaLink="true">http://siam-sc.math.cmu.edu/seminar/new/s19/2019/04/29/Ramdas.html</guid>
+        <link>http://siam-sc.math.cmu.edu/seminar/past/s19/2019/04/29/Ramdas.html</link>
+        <guid isPermaLink="true">http://siam-sc.math.cmu.edu/seminar/past/s19/2019/04/29/Ramdas.html</guid>
         
         
         <category>seminar</category>
         
-        <category>new</category>
+        <category>past</category>
         
         <category>S19</category>
         
@@ -379,125 +422,6 @@ variational methods or machine learning.&lt;/p&gt;
         <category>past</category>
         
         <category>S18</category>
-        
-      </item>
-    
-      <item>
-        <title>Spring 2018: Calculus of variations on manifolds and geometric flows</title>
-        <description>&lt;p&gt;This semester we will be working on ``Calculus of variations on manifolds and geometric flows”.&lt;/p&gt;
-
-&lt;p&gt;We will follow at least two books:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://www.springer.com/us/book/9783034801447&quot;&gt;Mantegazza&lt;/a&gt;: Lecture notes on mean curvature flows&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://homepages.warwick.ac.uk/~maseq/RFnotes.html&quot;&gt;Topping&lt;/a&gt;: Lectures on Ricci flow&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Books that could be useful for geometry:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://link.springer.com/book/10.1007%2F978-1-4419-9982-5&quot;&gt;Lee’s Introduction to smooth manifolds&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://link.springer.com/book/10.1007%2Fb98852&quot;&gt;Lee’s Introduction to Riemannian manifolds&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://link.springer.com/book/10.1007%2F978-3-319-61860-9&quot;&gt;Jost’s Riemannian geometry and geometric analysis&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Email for the working groups is: siam-wg@lists.andrew.cmu.edu&lt;/p&gt;
-
-&lt;h2 id=&quot;schedule-so-far&quot;&gt;Schedule (so far)&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Name&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Chapter(s)&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Date&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Topic&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;01/18&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Organizational meeting&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Sam Cohn&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;01/25&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Review of Riemannian Geometry&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Antoine Remond-Tiedrez&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;02/01&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Review of Riemannian Geometry (cont.)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Antoine Remond-Tiedrez&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;02/08&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Review of Riemannian Geometry (cont.)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Son Van&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;02/15&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Mean curvature flows&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Son Van&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;02/22&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Mean curvature flows (cont.)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Adrian Hagerty&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;03/01&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Comparison principle&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Adrian Hagerty&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;03/08&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Evolution of geometric quantities&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Won Eui Hong&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;03/22&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Giovanni Gravina&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;03/29&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Participants: Adrian, Antoine, Sam, Kevin, Wony, Son, David, Likhit, Yousuf, Giovanni, Thomas, Joshua&lt;/p&gt;
-</description>
-        <pubDate>Fri, 12 Jan 2018 00:00:00 -0500</pubDate>
-        <link>http://siam-sc.math.cmu.edu/seminar/working/2018/01/12/Spring-2018.html</link>
-        <guid isPermaLink="true">http://siam-sc.math.cmu.edu/seminar/working/2018/01/12/Spring-2018.html</guid>
-        
-        
-        <category>seminar</category>
-        
-        <category>working</category>
         
       </item>
     
