@@ -5,8 +5,8 @@
     <description></description>
     <link>http://siam-sc.math.cmu.edu/</link>
     <atom:link href="http://siam-sc.math.cmu.edu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 26 Sep 2019 10:06:41 -0400</pubDate>
-    <lastBuildDate>Thu, 26 Sep 2019 10:06:41 -0400</lastBuildDate>
+    <pubDate>Thu, 10 Oct 2019 09:53:51 -0400</pubDate>
+    <lastBuildDate>Thu, 10 Oct 2019 09:53:51 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -42,6 +42,11 @@
       &lt;td style=&quot;text-align: left&quot;&gt;Likhit Ganedi&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;09/26&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;Video Processing&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Won Eui Hong&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10/10&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Multiresolution DMD&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -90,6 +95,11 @@
       &lt;td style=&quot;text-align: left&quot;&gt;Likhit Ganedi&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;09/26&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;Video Processing&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Won Eui Hong&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10/10&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Multiresolution DMD&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
