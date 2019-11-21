@@ -5,8 +5,8 @@
     <description></description>
     <link>http://siam-sc.math.cmu.edu/</link>
     <atom:link href="http://siam-sc.math.cmu.edu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 10 Oct 2019 09:53:51 -0400</pubDate>
-    <lastBuildDate>Thu, 10 Oct 2019 09:53:51 -0400</lastBuildDate>
+    <pubDate>Thu, 21 Nov 2019 15:02:52 -0500</pubDate>
+    <lastBuildDate>Thu, 21 Nov 2019 15:02:52 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -48,8 +48,30 @@
       &lt;td style=&quot;text-align: center&quot;&gt;10/10&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;Multiresolution DMD&lt;/td&gt;
     &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;David Itkin&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10/17&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DMD with Control&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Likhit Ganedi&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10/24&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Wavelet Transform&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Won Eui Hong&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;11/14&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Multiresolution Approximations&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Antoine Remond-Tiedrez&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;11/21&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Littlewood-Paley Decomposition&lt;/td&gt;
+    &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;p&gt;Summaries of the key points from each talk can be found in these &lt;a href=&quot;https://math.cmu.edu/~aremondt/siam-wg/siam-wg-notes-f19.pdf&quot;&gt;notes&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Thu, 29 Aug 2019 00:00:00 -0400</pubDate>
         <link>http://siam-sc.math.cmu.edu/seminar/working/2019/08/29/Fall19.html</link>
