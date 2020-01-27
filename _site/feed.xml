@@ -5,13 +5,72 @@
     <description></description>
     <link>http://siam-sc.math.cmu.edu/</link>
     <atom:link href="http://siam-sc.math.cmu.edu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Jan 2020 10:05:38 -0500</pubDate>
-    <lastBuildDate>Thu, 23 Jan 2020 10:05:38 -0500</lastBuildDate>
+    <pubDate>Mon, 27 Jan 2020 10:16:55 -0500</pubDate>
+    <lastBuildDate>Mon, 27 Jan 2020 10:16:55 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
+        <title>Spring 2020</title>
+        <description>&lt;p&gt;This semester we will be working on ‘‘Malliavin Calculus’’. We meet on Thursdays at 2:30 pm in WEH 7218.&lt;/p&gt;
+
+&lt;p&gt;Text: ‘‘The Malliavin Calculus and Related Topics’’ by David Nualart.&lt;/p&gt;
+
+&lt;p&gt;Email for the working groups is: siam-wg@lists.andrew.cmu.edu&lt;/p&gt;
+
+&lt;h2 id=&quot;schedule-so-far&quot;&gt;Schedule (so far)&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Name&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Date(s)&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Topic&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;David Itkin&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;01/23&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Chapter 1: Brownian Motion&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Likhit Ganedi&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;01/30&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Chapter 2: Stochastic Calculus (Part I)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Andrew Warren&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;02/06&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Chapter 2: Stochastic Calculus (Part II)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Wony Hong&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;02/13&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Chapter 3: Derivative and Divergence Operators&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Zeyu Zhang&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;02/20&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Chapter 4: Wiener Chaos&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Antoine Remond-Tiedrez&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;02/27&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Chapter 5: Ornstein-Uhlenbeck Semigroup&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Thu, 16 Jan 2020 00:00:00 -0500</pubDate>
+        <link>http://siam-sc.math.cmu.edu/2020/01/16/Spring-2020.html</link>
+        <guid isPermaLink="true">http://siam-sc.math.cmu.edu/2020/01/16/Spring-2020.html</guid>
+        
+        
+      </item>
+    
+      <item>
         <title>Spring 2020: Malliavin Calculus</title>
-        <description>&lt;p&gt;This semester we will be working on ‘‘Malliavin Calculus’’.&lt;/p&gt;
+        <description>&lt;p&gt;This semester we will be working on ‘‘Malliavin Calculus’’. We meet on Thursdays at 2:30 pm in WEH 7218.&lt;/p&gt;
 
 &lt;p&gt;Text: ‘‘The Malliavin Calculus and Related Topics’’ by David Nualart.&lt;/p&gt;
 
@@ -186,8 +245,30 @@
       &lt;td style=&quot;text-align: center&quot;&gt;10/10&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;Multiresolution DMD&lt;/td&gt;
     &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;David Itkin&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10/17&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DMD with Control&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Likhit Ganedi&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10/24&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Wavelet Transform&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Won Eui Hong&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;11/14&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Multiresolution Approximations&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Antoine Remond-Tiedrez&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;11/21&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Littlewood-Paley Decomposition&lt;/td&gt;
+    &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;p&gt;Summaries of the key points from each talk can be found in these &lt;a href=&quot;https://math.cmu.edu/~aremondt/siam-wg/siam-wg-notes-f19.pdf&quot;&gt;notes&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 28 Aug 2019 00:00:00 -0400</pubDate>
         <link>http://siam-sc.math.cmu.edu/2019/08/28/Fall19.html</link>
@@ -493,68 +574,6 @@ variational methods or machine learning.&lt;/p&gt;
         <category>past</category>
         
         <category>S18</category>
-        
-      </item>
-    
-      <item>
-        <title>Fall 2018</title>
-        <description>&lt;p&gt;This semester we will be working on ``Analysis of Hydrodynamic Models”.&lt;/p&gt;
-
-&lt;p&gt;We will follow Peter Constantin’s book &lt;a href=&quot;https://epubs.siam.org/doi/book/10.1137/1.9781611974805&quot;&gt;``Analysis of Hydrodynamic Models’’&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Email for the working groups is: siam-wg@lists.andrew.cmu.edu&lt;/p&gt;
-
-&lt;h2 id=&quot;schedule-so-far&quot;&gt;Schedule (so far)&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Name&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Chapter(s)&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Date&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Topic&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Antoine Remond-Tiedrez&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;09/06&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Organizational and basics&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Adrian Hagerty&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;09/13&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Derivation of the Euler equations (and other models) from variational principles&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Son Van&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;09/20, 09/27&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;The Euler equations: fundamentals and sufficient conditions for regularity&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Won Eui Hong&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;10/04&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;The Euler equations: fundamentals and sufficient conditions for regularity (cont.)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Antoine Remond-Tiedrez&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;10/11&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;The Lagrangian-Eulerian structure of (some) hydrodynamical models&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Participants: Adrian, Antoine, Sam, Wony, Son, Likhit, Yukun,  Ben&lt;/p&gt;
-</description>
-        <pubDate>Fri, 07 Sep 2018 00:00:00 -0400</pubDate>
-        <link>http://siam-sc.math.cmu.edu/2018/09/07/Fall-2018.html</link>
-        <guid isPermaLink="true">http://siam-sc.math.cmu.edu/2018/09/07/Fall-2018.html</guid>
-        
         
       </item>
     
