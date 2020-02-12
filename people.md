@@ -8,8 +8,8 @@ title: People
 + Treasurer: David Itkin
 
 ### Faculty advisers:
-+ [Gautam Iyer](http://www.math.cmu.edu/~gautam/), Associate Professor, Mathematical Sciences
-+ [Kaushik Dayal](https://sites.google.com/site/kaushikdayal/), Professor, Civil and Environmental Engineering
++ [Gautam Iyer](http://www.math.cmu.edu/~gautam/), Professor, Mathematical Sciences
++ [Kaushik Dayal](https://sites.google.com/view/kaushik-dayal-research-group/), Professor, Civil and Environmental Engineering
 
 ### SIAM Officers - Historical record
 + Antoine Remond-Tiedrez (2016 -- now)
