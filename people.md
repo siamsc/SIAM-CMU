@@ -2,27 +2,25 @@
 layout: page
 title: People
 ---
-### Officers for the 2017-2018 academic year:
+### Officers for the 2019-2020 academic year:
 
 + President: Antoine Remod-Tiedrez
 
-+ Vice President: Son Van
++ Vice President: Won Eui Hong
 
-+ Treasurer: Adrian Hagerty
-
-+ Secretary: Won Eui Hong
-
-
++ Treasurer: David Itkin
 
 ### Faculty advisers:
 + [Gautam Iyer](http://www.math.cmu.edu/~gautam/), Associate Professor, Mathematical Sciences
 + [Kaushik Dayal](https://sites.google.com/site/kaushikdayal/), Professor, Civil and Environmental Engineering
 
-### Officers for the 2017-2018 academic year:
-+ Adrian Hagerty, Son Van, Antoine Remond-Tiedrez, Won Eui Hong
-
-### Officers for the 2016-2017 academic year:
-+ Adrian Hagerty, Fan Yang, Antoine Remond-Tiedrez, Son Van
-
-### Officers during the 2015-2016 academic year:
-+ Sam Cohn, Yue Pu, Adrian Hagerty, Ryan Xu
+### SIAM Officers - Historical record
+Antoine Remond-Tiedrez (2016 -- now)
+Won Eui Hon (2017 -- now)
+David Itkin (2019 -- now)
+Adrian Hagerty (2015-19)
+Son Van (2016-19)
+Fan Yang (2016-17)
+Sam Cohn (2015-16)
+Yue Pu (2015-16)
+Ryan Xu (2015-16)
