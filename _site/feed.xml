@@ -5,8 +5,8 @@
     <description></description>
     <link>http://siam-sc.math.cmu.edu/</link>
     <atom:link href="http://siam-sc.math.cmu.edu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Feb 2020 12:47:41 -0500</pubDate>
-    <lastBuildDate>Wed, 12 Feb 2020 12:47:41 -0500</lastBuildDate>
+    <pubDate>Thu, 20 Feb 2020 08:39:55 -0500</pubDate>
+    <lastBuildDate>Thu, 20 Feb 2020 08:39:55 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -45,18 +45,23 @@
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Wony Hong&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;02/13&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;02/13, 20&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;Chapter 3: Derivative and Divergence Operators&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Zeyu Zhang&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;02/20&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;02/27&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;Chapter 4: Wiener Chaos&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Antoine Remond-Tiedrez&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;02/27&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;03/05&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;Chapter 5: Ornstein-Uhlenbeck Semigroup&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Son Van&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;03/19&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Chapter 6: Stochastic Integral Representations (Part I)&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -104,22 +109,22 @@
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Wony Hong&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;02/13&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;02/13, 20&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;Chapter 3: Derivative and Divergence Operators&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Zeyu Zhang&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;02/20&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;02/27&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;Chapter 4: Wiener Chaos&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Antoine Remond-Tiedrez&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;02/27&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;03/05&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;Chapter 5: Ornstein-Uhlenbeck Semigroup&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Son Van&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;03/05&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;03/19&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;Chapter 6: Stochastic Integral Representations (Part I)&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
